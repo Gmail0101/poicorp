@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>찾아오는길</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <link href="./css/map.css" rel="stylesheet" type="text/css" />
+    <link href="./css/submenu.css" rel="stylesheet" type="text/css" />
+    <link href="./css/popup.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="ft_email_bg"></div>
+    <div class="ft_privacy_bg"></div>
+            <div>
+                <header id="header">
+                    <div id="logo">
+                        <h1><a href="./index.html"><img src="./images/logo_white.png" alt="logo"></a></h1>
+                    </div>
+                    <div id="menuwrap">
+                        <nav>
+                            <ul id="menu">
+                                <!-- location.js -->
+                            </ul>
+                        </nav>
+                    </div>
+                </header>
+            </div>
+        <div id="map">
+            <a href="#header"><img src="./CI images/그룹 69.png" alt="top" class="topbtn"></a>
+            <div class="map_visual">
+                <img src="./map images/shutterstock_127728248.png" alt="map_img">
+                <div class="map_title">
+                    <h2>CUSTOMER CENTER</h2>
+                    <h3>고객 센터</h3>
+                    <p>제품 및 서비스에 관해 궁금하신 점을 문의하여 주시면 정성껏 답변해드리겠습니다.</p>
+                </div>
+            </div>
+            <div class="map_nav">
+                <ul>
+                    <li><a href="./contactus.html">문의하기</a></li>
+                    <li><a href="./map.html">찾아오시는길</a></li>
+                </ul>
+            </div>
+            <div id="map_wrap">
+                <div class="map_content">
+                    <h2>찾아오시는길<img src="./CI images/그룹 118.png" alt="118png"></h2>
+                    <p>주식회사 포이로 오시는 방법을 알려드립니다.</p>
+                </div>
+                <div>
+                    <div id="daumRoughmapContainer1634199116082" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+                </div>
+                <div id="map_road">
+                    <div>
+                        <ul class="map_road_nav">
+                            <li>주소:</li>
+                            <li>대전 유성구 테크노2로 340 (탑립동) 2층</li>
+                        </ul>
+                        <ul class="map_road_nav">
+                            <li>전화번호 :</li>
+                            <li>042-932-8999</li>
+                        </ul>
+                        <ul class="map_road_nav">
+                            <li>교통편 :</li>
+                            <li>버스 이용시<br/>
+                                <span>701번</span>조폐공사ID본부 정류장 하차
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="foot">
+                <!-- location.js-->
+            </div>
+        </div>
+    <script src="./js/foot.js"></script>
+    <script src="./js/location.js"></script>
+    <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+    <script charset="UTF-8">
+        new daum.roughmap.Lander({
+            "timestamp" : "1634199116082",
+            "key" : "27omd",
+            "mapWidth" : "1100",
+            "mapHeight" : "539"
+}).render();
+    </script>
+</body>
+</html>

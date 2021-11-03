@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>고객센터</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <link href="./css/us.css" rel="stylesheet" type="text/css" />
+    <link href="./css/submenu.css" rel="stylesheet" type="text/css" />
+    <link href="./css/popup.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="ft_email_bg"></div>
+    <div class="ft_privacy_bg"></div>
+            <div>
+                <header id="header">
+                    <div id="logo">
+                        <h1><a href="./index.html"><img src="./images/logo_white.png" alt="logo"></a></h1>
+                    </div>
+                    <div id="menuwrap">
+                        <nav>
+                            <ul id="menu">
+                                <!-- location.js -->
+                            </ul>
+                        </nav>
+                    </div>
+                </header>
+            </div>
+        <div id="us">
+            <a href="#header"><img src="./CI images/그룹 69.png" alt="top" class="topbtn"></a>
+            <div class="us_visual">
+                <img src="./us images/shutterstock_648921619.png" alt="visual_img">
+                <div class="us_title">
+                    <h2>CUSTOMER CENTER</h2>
+                    <h3>고객 센터 </h3>
+                    <p>제품 및 서비스에 관해 궁금하신 점을 문의하여 주시면 정성껏 답변해드리겠습니다.</p>
+                </div>
+            </div>
+            <div class="us_nav">
+                <ul>
+                    <li><a href="./contactus.html">문의하기</a></li>
+                    <li><a href="./map.html">찾아오시는길</a></li>
+                </ul>
+            </div>
+            <div id="us_wrap">
+                <div class="us_content">
+                    <h2>문의하기<img src="./CI images/그룹 118.png" alt="118png"></h2>
+                    <p>제품 또는 사업에 관해 궁금하신 사항이 있으시면 무엇이든 올려주세요<br/>
+                        담당자가 빠른답변 드리겠습니다.
+                    </p>
+                </div>
+                <div id="mail_wrap">
+                    <form action="" method="POST" id="email">
+                         <!-- <input type="text" name="name" class="name" placeholder="ㅇㄻ">  -->
+                        <div class="mail_pit pit_1">
+                            <img src="./us images/NoPath_5.png" alt="no1"><p>사업영역</p>
+                            <select name="name" class="name">
+                                <option value="선택없음">선택하세요</option>
+                                <option value="IT 사업팀">IT 사업팀</option>
+                                <option value="화학소재 사업팀">화학소재 사업팀</option>
+                            </select> 
+                        </div>
+                        <div class="mail_pit">
+                            <img src="./us images/NoPath_1.png" alt="no1"><p>기업명 또는 단체명</p>
+                            <input type="text" name="user" class="user" id="user" placeholder="소속된 기업 또는 단체 이름을 입력해주세요. 개인이시라면 '개인'으로 입력해주세요.">
+                        </div>
+                        <div class="mail_pit">
+                            <img src="./us images/NoPath_4.png" alt="no2"><p>성함</p>
+                            <input type="text" name="id" class="id" id="id" placeholder="문의자 성함을 입력해주세요.">
+                        </div>
+                        <div class="mail_pit">
+                            <img src="./us images/NoPath_3.png" alt="no2"><p>이메일 주소</p>
+                            <input type="email" name="email" class="email" id="email_chk" placeholder="연락받으실 이메일 주소를 입력해주세요.">
+                        </div>
+                        <div class="mail_pit">
+                            <img src="./us images/NoPath_2.png" alt="no2"><p>연락처</p>
+                            <input type="text" name="phone" class="phone" id="phone" placeholder="연락받으실 전화번호를 입력해주세요.">
+                        </div>
+                        <div class="mail_box">
+                            <p>문의내용</p>
+                            <input type="text" name="message" rows="5" class="message" placeholder="상담하실 내용을 적어주세요.">
+                        </div>
+                        <div class="mail_privacy">
+                            <input type="checkbox" name="chk" id="chk">
+                            <span>개인정보 활용에 동의합니다.</span>
+                        </div>
+                        <input type="button" onclick="email_check()" name="submit" class="btn" id="button" value="메일보내기"/>
+                    </form>
+                </div>
+            </div>
+            <div class="foot"></div>
+        </div>
+    <script src="./js/foot.js"></script>
+    <script src="./js/location.js"></script>
+    <script src="./js/email.js"></script>
+</body>
+</html>

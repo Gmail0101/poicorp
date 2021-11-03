@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주식회사포이</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+    <script src="./js/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="./css/fullpage.css">
+    <link rel="stylesheet" href="./css/common.min.css" type="text/css">
+    <link href="./css/menu.css" rel="stylesheet" type="text/css" />
+    <link href="./css/MainPage.css" rel="stylesheet" type="text/css" />
+    <link href="./css/scroll.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="ft_email_bg">
+        <div class="ft_email"></div>
+    </div>
+    <div class="ft_privacy_bg">
+        <div class="ft_privacy"></div>
+    </div>
+    <div id="page_nav">
+        <ul>
+            <li><img src="./images/one_white.png" alt="white"><a href="#1">HOME</a></li>
+            <li><img src="./images/one_gray.png" alt="gray"><a href="#2">COMPANY</a></li>
+            <li><img src="./images/one_gray.png" alt="gray"><a href="#3">CHEMICAL SERVICE</a></li>
+            <li><img src="./images/one_gray.png" alt="gray"><a href="#4">IT SERVECE</a></li>
+            <li><img src="./images/one_gray.png" alt="gray"><a href="#5">CLIENT</a></li>
+        </ul>
+    </div>
+    <div>
+        <header id="header">
+            <div id="logo">
+                <h1><a href="./index.html"><img src="./images/logo_white.png" alt="logo"></a></h1>
+            </div>
+            <div id="menuwrap">
+                <!-- gnb.js-->
+            </div>
+        </header>
+    </div>
+    <div id="fullpage">
+        <div class="section sec_1">
+            <!-- <div class="scroll_bar"></div>
+            <div class="scroll_name">SCROLL DOWN</div> -->
+            <div class="jd-slider fade slider4">
+                <div class="slide-inner">
+                    <ul class="slide-area">
+                        <li>
+                            <div class="slide-box">
+                                <h1>지속가능한 미래를 위한<br/>화학소재 기술과 솔루션</h1>
+                                <p class="mobile_out">주식회사 포이는 독자적인 흡착제 개발 기술을 바탕으로 제품 생산 및 관련 IT서비스를 제공하고 있습니다.</p>
+                                <p class="mobile_in">
+                                    주식회사 포이는 독자적인 흡착제 개발 기술을<br/>
+                                    바탕으로 제품 생산 및 관련IT서비스를<br/>
+                                    제공하고 있습니다.
+                                </p>
+                            </div>
+                            <div class="slide-bg"></div>
+                            <img src="./images/KakaoTalk_20211008_141224853.jpg" alt="img1">
+                            <div class="mobileIMG"><img src="./mobileIMG/320/section1_back1.jpg" alt="mobileIMG"></div>
+                        </li>
+                        <li>
+                            <div class="slide-box">
+                                <h1>더 나은 세상을 위한 <br/>자연과 함께하는 기술</h1>
+                                <p class="mobile_out">주식회사 포이는 탄소 중립 환경을 위한 ESG 경영 중심의 화학소재 전문 기업입니다.</p>
+                                <p class="mobile_in">주식회사 포이는 탄소 중립 환경을 위한<br/>ESG 경영 중심의 화학소재 전문 기업입니다.</p>
+                            </div>  
+                            <div class="slide-bg"></div>
+                            <img src="./images/KakaoTalk_20211008_141224853_01.jpg" alt="img2">
+                            <div class="mobileIMG"><img src="./mobileIMG/320/section1_back2.jpg" alt="mobileIMG"></div>
+                        </li>
+                        <li>
+                            <div class="slide-box">
+                                <h1 class="mobile_out">멈추지 않는 열정과<br/>무한한 가능성에 대한 믿음</h1>
+                                <h1 class="mobile_in">멈추지 않는 열정과<br/>무한한 가능성에<br/>대한 믿음</h1>
+                                <p class="mobile_out">더 안전한 환경에서 보다 나은 삶을 영위하는 것에 기반을 두고 우리가 가진 기술 역량에 혁신을 더해 무한한 가능성을 열어갑니다.</p>
+                                <p class="mobile_in">
+                                    더 안전한 환경에서 보다 나은 삶을 영위하는 것에<br/>
+                                    기반을 두고 우리가 가진 기술 역량에 혀신을 더해<br/>
+                                    무한한 가능성을 열어 갑니다.
+                                </p>
+                            </div>
+                            <div class="slide-bg"></div>
+                            <img src="./images/KakaoTalk_20211008_141224853_02.jpg" alt="img3">
+                            <div class="mobileIMG"><img src="./mobileIMG/320/section1_back3.jpg" alt="mobileIMG"></div>
+                        </li>
+                    </ul>
+                    <a class="prev" href="#">
+                        <i class="fas fa-angle-left fa-2x">
+                            <img src="./images/left.png" alt="left" class="prev">
+                        </i>
+                    </a>
+                    <a class="next" href="#">
+                        <i class="fas fa-angle-right fa-2x">
+                            <img src="./images/right.png" alt="right" class="next">
+                        </i>
+                    </a>
+                </div>
+                <div class="controller">
+                    <a class="auto" href="#">
+                        <i class="fas fa-play fa-xs"></i>
+                        <i class="fas fa-pause fa-xs"></i>
+                    </a>
+                    <div class="indicate-area"></div>
+                </div>
+            </div>
+        </div>
+        <div class="section">                       <!-- sec2 -->
+            <div class="sec2_bg">
+                <img src="./images/shutterstock_1811787367.png" alt="IMG" class="sec2_img">
+                <img src="./mobileIMG/320/section2_back1.jpg" alt="img">
+            </div>
+            <!-- <div class="scroll_bar"></div>
+            <div class="scroll_name">SCROLL DOWN</div> -->
+            <div class="sec2_bg_bg"></div>
+            <div class="sec2_box">
+                <h2 data-trigger>Chemical Materials & IT <br/><span>Total Solution for Future</span></h2>
+                <p class="mobile_none" data-trigger2>포이(POI)는 한글로 탄착점이라는 뜻의 'POINT OF IMPACT'에서 유래된 단어로<br/>
+                    화학소재와 IT분야에서 무한한 가능성을 열어가고자 하는 비전을 담았습니다.
+                </p>
+                <p class="mobile" data-trigger2>포이(POI)는 화학소재와 IT분야에서 무한한 가능성을 열어가고자 하는 비전을 담았습니다.
+                </p>
+                <img src="./images/sec2_logo.png" alt="logo" data-trigger6>
+            </div>
+        </div>
+        <div class="section">       <!-- sec3 영역-->
+            <div class="sec3_ch_bg">
+                <div class="sec3_ch_title">
+                    <img src="./images/section3_back_topicon.png" alt="bgimg">
+                    <h2>Chemical<br/>Materials</h2>
+                    <em>화학소재 사업</em>
+                    <p>
+                        주식회사 포이 화학소재는 촉매를 전문적으로 개발 생산하고 있으며,<br/>
+                        높은 수준의 공정 촉매 기술력과 품질관리를 기반으로고객의 요구사항에 맞춘<br/>
+                        촉매 Solution을 제공하고 있습니다.
+                    </p>
+                </div>
+                <div class="sec3_ch_img mobile_none">
+                    <div>
+                        <a href="/chemistry.html">
+                            <img src="./images/ch2.png" alt="chIMG">
+                            <h2>흡착제/촉매 위탁생산</h2>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="/chemistry.html?tab-2">
+                            <img src="./images/ch.png" alt="chIMG">
+                            <h2>스마트 기술 적용<br/>유해물질 제거 시스템</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="mobile_in sec3_mo_img">
+                    <div>
+                        <a href="/chemistry.html">
+                            <img src="./mobileIMG/320/section3_mo.png" alt="moIMG">
+                            <h2>흡착제/촉매<br/> 위탁생산</h2>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="/chemistry.html?tab-2">
+                            <img src="./mobileIMG/320/section3_mo2.png" alt="moIMG">
+                            <h2>스마트 기술 적용<br/>유해물질 제거 시스템</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- scroll 제외한 sec3 레이아웃
+                
+                <div class="sec3_bg">
+                <img src="./images/shutterstock_1042879351.png" alt="IMG" class="sec3_img">
+                <img src="./mobileIMG/320/section3_back1.jpg" alt="IMG">
+            </div> -->
+
+
+            <!-- <div class="scroll_bar"></div>
+            <div class="scroll_name">SCROLL DOWN</div> -->
+
+
+           <!-- <div class="sec3_bg_bg"></div>
+           <div class="sec3_box">
+               <span data-trigger3>BUSINESS</span><br/>
+               <h2 data-trigger3>Chemical Materials</h2>
+               <p class="sec3_txt" data-trigger3>화학소재 사업</p>
+               <p class="sec3_txt2 mobile_out" data-trigger4>
+                주식회사 포이 화학소재는 촉매를 전문적으로 개발 생산하고 있으며,
+                높은 수준의 공정 촉매 기술력과 품질관리를 기반으로고객의 요구사항에 맞춘
+                촉매 Solution을 제공하고 있습니다.
+               </p>
+               <p class="mobile_in sec3_txt2" data-trigger4>
+                   주식회사 포이 화학소재는 촉매를 전문적으로<br/>
+                   개발 생산하고 있으며, 높은 수준의 공정 촉매 기술력과<br/>
+                   품질관리를 기반으로 고객의 요구사항에 맞춘<br/>
+                   촉매 Solution을 제공하고 있습니다.
+               </p>
+               <a href="./chemistry.html" data-trigger4>More ></a>
+           </div>
+            <div>
+                <div id="slide_ch_wrap">
+                    <div class="g_item">
+                        <ul class="slide1_nav">
+                            <li class="on">흡착제/촉매 위탁생산</li>
+                            <li>스마트 기술 적용 유해물질 제거 시스템</li> -->
+                            <!-- <li>상품정보3</li> -->
+                        <!-- </ul>
+                    </div>
+                    <div class="gallery">
+                        <ul class="slide1_wrap slide_ch">
+                            <li>
+                                <img src="./images/이미지1.png" alt="img1" id="mo_slide1" class="mo_slide1">
+                            </li>
+                            <li>
+                                <img src="./images/shutterstock_1045501399.png" alt="img1" class="mo_slide1">
+                            </li> -->
+                            <!-- <li style="margin-right: 50px;">
+                                <img src="./images/KakaoTalk_20211007_101959729.png" alt="img1">
+                            </li> -->
+                        <!-- </ul>
+                        <ul class="moblie_slider">
+                            <li>
+                                <img src="./mobileIMG/320/section3_slide1.jpg" alt="IMG">
+                            </li>
+                            <li style="margin-left: 40px;">
+                                <img src="./mobileIMG/320/section3_slide2.jpg" alt="IMG">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div> -->
+        </div> 
+        <div class="section">           <!-- sec4 영역-->
+            <div class="sec4_it_bg">
+                <div class="sec4_it_title">
+                    <img src="./images/section3_back_topicon2.png" alt="bgimg">
+                    <h2>Information<br/>Technology</h2>
+                    <em>IT 사업</em>
+                    <p>
+                        점차 다양해지는 생활 환경에 따라 발생 되는 긍정적 및 부정적인 부분에 집중하여<br/>
+                        IT 기술을 접목한 서비스를 제공합니다. 
+                    </p>
+                </div>
+                <div class="sec4_it_img mobile_none">
+                    <div>
+                        <a href="/it.html">
+                            <img src="./images/it.png" alt="chIMG">
+                            <h2>플랫폼서비스</h2>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="/it.html?tab-2">
+                            <img src="./images/it 2.png" alt="chIMG">
+                            <h2>IT컨설팅</h2>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="/it.html?tab-3">
+                            <img src="./images/it3.png" alt="chIMG">
+                            <h2>시스템통합</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="sec4_mo_img mobile_in">
+                    <div>
+                        <a href="/it.html">
+                            <img src="./mobileIMG/320/section4_it_mo1.png" alt="chIMG">
+                            <h2>플랫폼서비스</h2>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="/it.html?tab-2">
+                            <img src="./mobileIMG/320/section4_it_mo2.png" alt="chIMG">
+                            <h2>IT컨설팅</h2>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="/it.html?tab-3">
+                            <img src="./mobileIMG/320/section4_it_mo3.png" alt="chIMG">
+                            <h2>시스템통합</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="sec4_bg">
+                <img src="./images/main_img1.png" alt="IMG" class="sec4_img">
+                <img src="./mobileIMG/320/section4_back1.jpg" alt="IMG">
+            </div> -->
+            <!-- <div class="scroll_bar"></div>
+            <div class="scroll_name">SCROLL DOWN</div> -->
+            <!-- <div class="sec3_bg_bg"></div>
+            <div class="sec3_box">
+                <span data-trigger5>BUSINESS</span><br/>
+                <h2 data-trigger5>IT<span>(Information Technology)</span></h2>
+                <p class="sec3_txt" data-trigger5>IT 사업</p>
+                <p class="sec3_txt2 mobile_out" data-trigger6>
+                    점차 다양해지는 생활 환경에 따라 발생되는 긍정적 및 부정적인 부분에
+                    집중하여 IT 기술을 접목한 서비스를 제공합니다.
+                </p>
+                <p class="sec3_txt2 mobile_in" data-trigger6>
+                    점차 다양해지는 생활 환경에 따라 발생되는<br/>
+                    긍정정 및 부정적인 부분에 집중하여 IT기술을 접목한<br/>
+                    서비스를 제공합니다.
+                </p>
+                <a href="./IT.html" data-trigger6>More ></a>
+            </div>
+             <div>
+                 <div>
+                     <div class="it_item">
+                         <ul class="slide1_nav slide2_nav">
+                             <li class="off">플랫폼서비스</li>
+                             <li>시스템통합</li>
+                             <li>IT컨설팅</li>
+                         </ul>
+                     </div>
+                        <div class="itslide">
+                            <ul class="slide1_wrap slide2_it">
+                                <li>
+                                    <img src="./images/1.png" alt="img1">
+                                </li>
+                                <li>
+                                    <img src="./images/2.png" alt="img1">
+                                </li>
+                                <li>
+                                    <img src="./images/shutterstock_265202600.png" alt="img1">
+                                </li>
+                            </ul> 
+                            <ul class="mo_slide2">
+                                <li style="margin-right: 10px;">
+                                    <img src="./mobileIMG/320/section4_slide1.jpg" alt="img1">
+                                </li>
+                                <li>
+                                    <img src="./mobileIMG/320/section4_slide2.jpg" alt="img1">
+                                </li>
+                                <li>
+                                    <img src="./mobileIMG/320/section4_slide3.jpg" alt="img1">
+                                </li>
+                            </ul> 
+                        </div>
+                 </div>
+             </div> -->
+         </div>
+        <div class="section bg5img">
+            <!-- <div class="scroll_bar"></div>
+            <div class="scroll_name">SCROLL DOWN</div> -->
+            <div>
+                <div class="mobile">
+                    <div class="mobile_txt">
+                        <h2>Point of Impact</h2>
+                        <p>더 나은 세상을 위한 끊임없는 탐구</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="./map.html">찾아오시는길</a>
+                        </li>
+                        <li>
+                            <a href="./business.html">포이뉴스</a>
+                        </li>
+                        <li>
+                            <a href="./contactus.html">사업문의</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="sec5_nav">
+                    <li>
+                        <h2>Point<br/>of<br/>Impact</h2>
+                        <p>더 나은 세상을 위한<br/>끊임없는 탐구</p>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="./images/holden-baxter-oxQ0egaQMfU-unsplash.png" alt="png1">
+                            <a href="./map.html">찾아오시는길<p>MAP</p></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="./images/shutterstock_347798435.png" alt="png2">
+                            <a href="./business.html">포이 뉴스<p>POI NEWS</p></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="./images/shutterstock_1422676346.png" alt="png3">
+                            <a href="./contactus.html">사업문의<p>CONTACT US</p></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="section foot"">
+            <div id="foot_nav">
+                <ul>
+                    <li><a href="./introduction.html">회사소개</a>
+                        <ul>
+                            <li><a href="./introduction.html">인사말</a></li>
+                            <li><a href="./CI.html">CI</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./business.html">사업영역</a>
+                        <ul>
+                            <li><a href="./chemistry.html">화학소재 사업</a></li>
+                            <li><a href="./IT.html">IT 사업</a></li>
+                            <li><a href="./progress.html">진행사업</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./news.html">미디어센터</a>
+                        <ul>
+                            <li><a href="./news.html">포이뉴스</a></li>
+                            <li><a href="./prmaterials.html">홍보자료</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li><a href="./contactus.html">고객센터</a>
+                        <ul>
+                            <li><a href="./contactus.html">문의하기</a></li>
+                            <!-- <li><a href="./qa.html">FAQ</a></li> -->
+                            <li><a href="./map.html">찾아오시는길</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="ft_box">
+                <img src="./images/logo.png" alt="ftlogo">
+                <ul class="mo_inner">
+                    <li><a href="./introduction.html">회사소개</a></li>
+                    <li><a href="./business.html">사업영역</a></li>
+                    <li><a href="./news.html">미디어센터</a></li>
+                    <li><a href="./contactus.html">고객센터</a></li>
+                </ul>
+                <ul class="ft_inner">
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">이메일무단수집거부</a></li>
+                </ul>
+                <h4>주식회사 포이</h4>
+                <ul class="ft_addr">
+                    <li>대전광역시 유성구 탑립동 924</li>
+                    <li><span>전화번호</span>042-932-8999</li>
+                    <li><span>사업자등록번호</span>380-81-02198</li>
+                </ul>
+                <p>Copyright&copy; POI Corp, All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+    <script src="./js/indexpage.js"></script>
+    <script src="./js/gnb.js"></script>
+    <script src="./js/part.js"></script>
+    <script src="./js/trigger.js"></script>
+    <script src="./js/jquery.jdSlider-latest.min.js"></script>
+</body>
+</html>

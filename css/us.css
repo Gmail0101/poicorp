@@ -1,0 +1,164 @@
+/* 
+font-family: 'Open Sans', sans-serif !important;
+font-family: 'NanumSquare', sans-serif; 
+*/
+#us{
+    display: block;
+    width:100%; overflow: hidden;
+}
+.us_visual{
+    display: block;
+    width:100%; height: 600px;
+    overflow: hidden;
+}
+.us_title{
+    display: block;
+    width:57.29166666666667%; height: 600px;
+    text-align: center;
+    margin: 0 auto;
+    transform: translateY(-90%);
+}
+.us_title h2,.us_title h3,.us_title p{
+    text-shadow: 5px 5px 6px rgba(0,0,0,0.2);
+}
+.us_title h2{
+    margin-top: 172px;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 77px;
+    line-height: 39px;
+    color:#fff;
+    font-weight: 800;
+}
+.us_title h3{
+    font-size: 43px;
+    line-height: 92px;
+    color:#fff;
+}
+
+.us_title p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+}
+.us_nav{position: relative; bottom:70px; background: rgba(0,0,0,0.5); width:100%;height: 70px;}
+.us_nav ul{display: flex; justify-content: center;}
+.us_nav ul li{ 
+    display: block;
+    width:28.64583333333333%;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    font-weight: 800;
+}
+.us_nav ul li:nth-child(1){
+    background:#1968B2 ;
+}
+.us_nav ul li a{color:#fff; font-size: 20px; display: block; width:100%}
+
+#us_wrap{
+    display: block;
+    width:57.29166666666667%; height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 160px;
+}
+.topbtn{position: fixed; right: 10%;top:90%;}
+.us_content,.us_system{text-align: center;}
+.us_content h2{font-size:45px; font-weight: 800; line-height: 60px; color:#292929;}
+.us_content h2>img{
+    width:30px;
+    position:relative;
+    bottom:30px;
+    right:180px;
+}
+.us_content h2::after{
+    content: '';
+    display: block;
+    width:43.63636363636364%; height: 2px;
+    margin: 34px auto;
+    background: #D2D2D2;
+
+}
+.us_content p{font-size: 20px; font-weight: bold; color:#292929; margin-top: 22px; margin-bottom: 76px; line-height: 35px;}
+.us_content{
+    margin-top: 55px;
+}
+.mail_pit img{width:25px; height: 25px; transform: translateY(70%); padding-left:30px;}
+.mail_pit p{width:150px; overflow: hidden; margin-left: 20px;}
+.mail_pit{
+    display: flex;
+    justify-content: space-between;
+    width:99%; height: 60px; line-height: 60px;
+    background: #EEEEEE;
+    border: 1px solid #A2A2A2;
+    border-radius: 13px;
+    margin-bottom: 26px;
+}
+.pit_1{ width:46.81818181818182%;}
+.pit_1 select{
+    width:57%;
+    border-radius: 0px 12px 12px 0px;
+    border: 0px; outline: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    padding-left:40px;
+    cursor: pointer;
+    appearance : none; /* select 박스 구성에 있는 화살표를 지움 */
+    background-image: url(../us\ images/arr.png);
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y:50%;
+}
+select>option{
+    border: 1px solid #A2A2A2;
+}
+.mail_box{margin-bottom: 26px;}
+.mail_box p{font-size: 16px; font-weight: bold; position: relative; top:30px; left: 15px;}
+.user,.email,.id,.phone{
+    width:77.27272727272727%;
+    border: none;
+    outline: none;
+    height: 58px;
+    padding-left: 40px;
+    margin-top: 1px;
+    margin-right: 1px;
+    border-radius: 0px 13px 13px 0px;
+}
+.message{border:none; outline: none;}
+.mail_privacy span{ margin-left: 10px; font-size: 16px; font-weight: 800;}
+.mail_privacy{text-align: center; line-height: 35px;}
+input[type="checkbox"] {
+    width:18px; height: 18px; position:relative; top:3px;
+}
+input::placeholder{
+    color:#A2A2A2;
+    margin-left: 42px;
+}
+input[type="button"] {
+    display: block;
+    width:45.45454545454545%; height: 50px;
+    margin: 30px auto;
+    color:#fff;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 800;
+    background: #144499;
+    cursor: pointer;
+}
+input[id="chk"] + label span:nth-child(3) {bottom:0; }
+input[id="chk"]:checked + input[type="button"]{
+    background: red;
+}
+
+.message{
+    width:99%; height: 300px;
+    border: 1px solid #A2A2A2;
+    border-radius: 13px;
+    text-align: center;
+}
+.mail_cmpn p{
+    font-size:16px;
+    font-weight: bold;
+}
