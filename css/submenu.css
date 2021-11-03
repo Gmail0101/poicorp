@@ -245,3 +245,11 @@ input[id="menuicon"]:checked + label + div {right:0px;}
 }
 .ft_box p{color:#4A4A4A; margin-left: 10%;}
 .foot img{width:85px; margin-top: 27px; margin-left: 10%; filter: brightness(0) invert(1);}
+
+
+@media screen and (min-width:320px) and (max-width:768px){
+    .intro_title p,#langwrap,#menu{display: none;}
+    .intro_title h2{font-size: 8.7500vw;}
+    .intro_title h3{font-size: 5vw;}
+    .intro_nav ul li{width:50%;}
+}
