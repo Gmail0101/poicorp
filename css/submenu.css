@@ -248,22 +248,30 @@ input[id="menuicon"]:checked + label + div {right:0px;}
 
 .mobile_toggle{display: none;}      /* 모바일 화면으로 가면 사라짐 */
 @media screen and (min-width:320px) and (max-width:768px){
+    /* subpage 공통사용 */
     .mo_img{width:100%; height: 100%;}
     .mobile_none{display: none;}
     .mobile_toggle{display: block;}
-    .intro_title{transform: translateY(-50%);}
-    .intro_title p,#langwrap,#menu{display: none;}
-    .intro_title h2{font-size: 8.7500vw; margin-top: 150px;}
-    .intro_title h3{font-size: 5vw; line-height: 30px;}
-    .intro_visual{height: 225px;}
-    .intro_nav{height: 35px; bottom:35px;}
-    .intro_nav ul li{width:50%; height: 35px; line-height: 35px;}
-    .intro_nav ul li a{font-size:4.0625vw;}
-    #intro_wrap{width:100%;}
-    .intro_content h2{font-size: 6.2500vw; margin-top: 0px;}
-    .intro_content h2::after{margin: 0px auto; width:80%;}
-    .intro_content h2>img{bottom:10px; right: 115px;}
-    .intro_content p{font-size: 4.0625vw; margin-top: 12px; margin-bottom: 24px;}
+    .ci_title,.intro_title{transform: translateY(-50%);}
+    .ci_title p,.intro_title p,#langwrap,#menu{display: none;}
+    .ci_title h2,.intro_title h2{font-size: 8.7500vw; margin-top: 150px;}
+    .ci_title h3,.intro_title h3{font-size: 5vw; line-height: 30px;}
+    .ci_visual,.intro_visual{height: 225px;}
+    .ci_nav,.intro_nav{height: 35px; bottom:35px;}
+    .ci_nav ul li,.intro_nav ul li{width:50%; height: 35px; line-height: 35px;}
+    .ci_nav ul li a,.intro_nav ul li a{font-size:4.0625vw;}
+
+    #ci_wrap{margin-bottom: 30px;}
+    #ci_wrap,#intro_wrap{width:100%;}
+    .ci_content h2,.intro_content h2{font-size: 6.2500vw; margin-top: 0px;}
+    .ci_content h2::after,.intro_content h2::after{margin: 0px auto; width:80%;}
+    .ci_content h2>img,.intro_content h2>img{bottom:10px; right: 115px;}
+    .ci_content h4{font-size: 4.0625vw;}
+    .ci_content p,.intro_content p{font-size: 4.0625vw; margin-top: 12px; margin-bottom: 24px;}
+    /* subpage 공통사용 */
+
+
+    /* intro mobile page */
     #logo>h1>a>img{width:52px; margin-left: 16px;}
     input[id="menuicon"] + label{top:31px; right: 16px;}
     .intro_cont{border-radius: 0px; width:100%; transform:translateX(0%); transform:translateY(50%) }
@@ -304,7 +312,14 @@ input[id="menuicon"]:checked + label + div {right:0px;}
     .mo_vlaue div:nth-child(2) h2::after{content: "R&D"; position: absolute; right: 42%; top:15%;}
     .mo_vlaue div:nth-child(3) h2{background: #0055B5;}
     .mo_vlaue div:nth-child(3){margin-bottom: 57px;}
+    /* intro mobile page */
 
+    /* ci mobile page */
+    .ci_content p{line-height: 25px; font-weight: normal;}
+    .ci_content img{width:90%;}
+    .ci_system h2{font-size: 6.2500vw;}
+
+    /* ci mobile page */
 
 
     /* mobile Footer */
@@ -344,4 +359,5 @@ input[id="menuicon"]:checked + label + div {right:0px;}
     .ft_addr>p{font-size: 3.4375vw;}
     .mo_inner li>a{color:#fff; font-weight: 900; font-size: 3.4375vw; border-right: 2px solid #fff; padding: 0px 10px;}
     .mo_inner li:nth-child(4)>a{border-right: 0px; padding: 0px; padding-left: 10px;}
+    /* mobile Footer */
 }
