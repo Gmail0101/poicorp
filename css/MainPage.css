@@ -592,7 +592,6 @@ sec 동일
     .ft_box{
         top:0; height: auto;
         text-align: center;
-
     }
     .ft_box>h4{display: none;}
     .ft_box>p{clear: both; padding-top: 16px; margin-left: 0px;}
