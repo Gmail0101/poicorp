@@ -318,9 +318,28 @@ input[id="menuicon"]:checked + label + div {right:0px;}
     .ci_content p{line-height: 25px; font-weight: normal;}
     .ci_content img{width:90%;}
     .ci_system h2{font-size: 6.2500vw;}
-
+    .ci_system img{width:90%}
     /* ci mobile page */
 
+
+    /* business mobile page */
+    #bu_wrap{width:100%; margin-bottom: 39px;}
+    .bu_visual{width:100%; height: 225px;}
+    .bu_visual img{height: 100%;}
+    .bu_title{width:100%; height: 100%;}
+    .bu_title h2{font-size: 8.7500vw; margin-top: 70px;}
+    .bu_title h3{font-size: 5.0000vw; line-height: 30px;}
+    .bu_content h4{font-size:6.2500vw; width:300px; margin: 0 auto;}    
+    .bu_content p{font-size: 4.0625vw; line-height:25px; width:92%; margin: 18px auto;}
+    .bu_link_box{bottom:-50px;}
+    .bu_link_box h2{font-size: 4.3750vw;}
+    .bu_link_box p{font-size: 1.2500vw; line-height: 10px;}
+    #bu_link>img{margin-bottom: 0px;}
+    .bu_link_bg{width:100%; top:-12%;}
+    .bu_link_bg>ul>li{width:40%; padding: 5px;}
+    .bu_link_bu a{width:90%; height: 25px; line-height: 25px; margin-top: 90px; font-size: 3.4375vw;}
+    .bu_link_bg>ul>li:hover .bu_link_box{bottom:100px;}
+    /* business mobile page */
 
     /* mobile Footer */
     .ft_box ul{margin-top: 0px; padding: 10px 0px;}
