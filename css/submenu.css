@@ -252,22 +252,26 @@ input[id="menuicon"]:checked + label + div {right:0px;}
     .mo_img{width:100%; height: 100%;}
     .mobile_none{display: none;}
     .mobile_toggle{display: block;}
-    .ci_title,.intro_title{transform: translateY(-50%);}
-    .ci_title p,.intro_title p,#langwrap,#menu{display: none;}
-    .ci_title h2,.intro_title h2{font-size: 8.7500vw; margin-top: 150px;}
-    .ci_title h3,.intro_title h3{font-size: 5vw; line-height: 30px;}
-    .ci_visual,.intro_visual{height: 225px;}
-    .ci_nav,.intro_nav{height: 35px; bottom:35px;}
+    .ch_title,.ci_title,.intro_title{transform: translateY(-50%);}
+    .ch_title p,.ci_title p,.intro_title p,#langwrap,#menu{display: none;}
+    .ch_title h2,.ci_title h2,.intro_title h2{font-size: 8.7500vw; margin-top: 150px;}
+    .ch_title h3,.ci_title h3,.intro_title h3{font-size: 5vw; line-height: 30px;}
+    .ch_visual,.ci_visual,.intro_visual{height: 225px;}
+    .ch_nav,.ci_nav,.intro_nav{height: 35px; bottom:35px;}
     .ci_nav ul li,.intro_nav ul li{width:50%; height: 35px; line-height: 35px;}
-    .ci_nav ul li a,.intro_nav ul li a{font-size:4.0625vw;}
+    .ch_nav ul li a,.ci_nav ul li a,.intro_nav ul li a{font-size:4.0625vw;}
+
+    .ch_nav ul li{width:33.3%; line-height: 35px; height: 35px;}
 
     #ci_wrap{margin-bottom: 30px;}
-    #ci_wrap,#intro_wrap{width:100%;}
-    .ci_content h2,.intro_content h2{font-size: 6.2500vw; margin-top: 0px;}
-    .ci_content h2::after,.intro_content h2::after{margin: 0px auto; width:80%;}
+    #ch_wrap,.ch_title,#ci_wrap,#intro_wrap{width:100%;}
+    .ch_content h2,.ci_content h2,.intro_content h2{font-size: 6.2500vw; margin-top: 0px;}
+    .ch_content h2::after,.ci_content h2::after,.intro_content h2::after{margin: 0px auto; width:80%;}
+    .ch_content h2>img{right: 170px; bottom:13px;}
     .ci_content h2>img,.intro_content h2>img{bottom:10px; right: 115px;}
     .ci_content h4{font-size: 4.0625vw;}
-    .ci_content p,.intro_content p{font-size: 4.0625vw; margin-top: 12px; margin-bottom: 24px;}
+    .ch_content p,.ci_content p,.intro_content p{font-size: 4.0625vw; margin-top: 12px; margin-bottom: 24px;}
+    .ch_content p{line-height: 25px;}
     /* subpage 공통사용 */
 
 
@@ -337,9 +341,31 @@ input[id="menuicon"]:checked + label + div {right:0px;}
     #bu_link>img{margin-bottom: 0px;}
     .bu_link_bg{width:100%; top:-12%;}
     .bu_link_bg>ul>li{width:40%; padding: 5px;}
-    .bu_link_bu a{width:90%; height: 25px; line-height: 25px; margin-top: 90px; font-size: 3.4375vw;}
+    .bu_link_bu a{width:90%; height: 25px; line-height: 25px; margin-top: 90px; font-size: 3.4375vw; color:#7FFF00 !important; background: rgba(0, 0, 0, 0.4);}
     .bu_link_bg>ul>li:hover .bu_link_box{bottom:100px;}
     /* business mobile page */
+
+    /* chemistry mobile page*/
+    .moilbe_img_out{display: none;}
+    ul.tabs li{
+        width:45%;
+        height: 40px; line-height: 40px;
+        font-size: 4.3750vw;
+        margin-bottom: 24px;
+    }
+    .tab-box h2{margin-top: 30px;}
+    .tab-step ul{flex-wrap: wrap; justify-content: center;}
+    .tab-step ul li{height: 140px; margin-bottom: 16px;}
+    .tab-step ul li div{width:120px; height: 100%;}
+    .tab-step ul li div img{margin-top: 20px !important; margin: 0 auto;}
+    .steparr{top:60px;}
+    .steparr>img{width:10px; padding: 5px;}
+    .tab-step ul li div span{font-size: 2.8125vw;}
+    .tab-step ul li div p{font-size: 3.4375vw;}
+    .tab-img{width:90%; margin: 0 auto;}
+
+    /* chemistry mobile page*/
+
 
     /* mobile Footer */
     .ft_box ul{margin-top: 0px; padding: 10px 0px;}
