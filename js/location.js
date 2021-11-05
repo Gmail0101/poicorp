@@ -51,14 +51,22 @@ $("#menuwrap").html(`
                                 <span class="chk"></span>
                             </label>
                          <div class="sidebar">
-                             <div>
+                            <div class="mobile_in">
+                               <ul>
+                                    <li><a href="./introduction.html">회사소개</a></li>
+                                    <li><a href="./business.html">사업영역</a></li>
+                                    <li><a href="./news.html">미디어센터</a></li>
+                                    <li><a href="./contactus.html">고객센터</a></li>
+                               </ul>
+                            </div>
+                             <div class="mobile_none">
                                  <ul id="sidebox">
                                      <li class="slidetitle">회사소개</li>
                                      <li><a href="./introduction.html">인사말</a></li>
                                      <li><a href="./CI.html">CI</a></li>
                                  </ul>
                              </div>
-                             <div>
+                             <div class="mobile_none">
                                  <ul id="sidebox">
                                      <li class="slidetitle">사업영역</li>
                                      <li><a href="./chemistry.html">화학소재 사업</a></li>
@@ -66,18 +74,17 @@ $("#menuwrap").html(`
                                      <li><a href="./progress.html">진행사업</a></li>
                                  </ul>
                              </div>
-                             <div>
+                             <div class="mobile_none">
                                  <ul id="sidebox">
                                      <li class="slidetitle">미디어센터</li>
                                      <li><a href="./news.html">포이뉴스</a></li>
                                      <li><a href="./prmaterials.html">홍보자료</a></li>
                                  </ul>
                              </div>
-                             <div>
+                             <div class="mobile_none">
                                  <ul id="sidebox">
                                      <li class="slidetitle">고객센터</li>
                                      <li class="side_cu"><a href="./contactus.html">문의하기</a></li>
-                                     
                                      <li class="side_cu"><a href="./map.html">찾아오시는길</a></li>
                                  </ul>
                              </div>
