@@ -447,6 +447,7 @@ input[id="menuicon"]:checked + label + div {right:0px;}
     /* chemistry mobile page*/
 
     /* it mobile page */
+    .tab1_chrct div img{padding: 20px 0px;}
     ul.tabs{display: flex;}
     ul.tabs li.current{height: 40px; line-height: 40px;}
     ul.tabs li{height: 38px;}
