@@ -30,7 +30,8 @@
         <div id="us">
             <a href="#header"><img src="./CI images/그룹 69.png" alt="top" class="topbtn"></a>
             <div class="us_visual">
-                <img src="./us images/shutterstock_648921619.png" alt="visual_img">
+                <img class="mobile_none" src="./us images/shutterstock_648921619.png" alt="visual_img">
+                <img class="mobile_toggle mo_img" src="./mobileIMG/320/mo_con_visual.png" alt="img">
                 <div class="us_title">
                     <h2>CUSTOMER CENTER</h2>
                     <h3>고객 센터 </h3>
@@ -63,7 +64,7 @@
                         </div>
                         <div class="mail_pit">
                             <img src="./us images/NoPath_1.png" alt="no1"><p>기업명 또는 단체명</p>
-                            <input type="text" name="user" class="user" id="user" placeholder="소속된 기업 또는 단체 이름을 입력해주세요. 개인이시라면 '개인'으로 입력해주세요.">
+                            <input type="text" name="user" class="user" id="user" placeholder="기업명/단체명을 입력해주세요.">
                         </div>
                         <div class="mail_pit">
                             <img src="./us images/NoPath_4.png" alt="no2"><p>성함</p>
@@ -71,11 +72,11 @@
                         </div>
                         <div class="mail_pit">
                             <img src="./us images/NoPath_3.png" alt="no2"><p>이메일 주소</p>
-                            <input type="email" name="email" class="email" id="email_chk" placeholder="연락받으실 이메일 주소를 입력해주세요.">
+                            <input type="email" name="email" class="email" id="email_chk" placeholder="이메일 주소를 입력해주세요.">
                         </div>
                         <div class="mail_pit">
                             <img src="./us images/NoPath_2.png" alt="no2"><p>연락처</p>
-                            <input type="text" name="phone" class="phone" id="phone" placeholder="연락받으실 전화번호를 입력해주세요.">
+                            <input type="text" name="phone" class="phone" id="phone" placeholder="전화번호를 입력해주세요.">
                         </div>
                         <div class="mail_box">
                             <p>문의내용</p>
@@ -89,7 +90,25 @@
                     </form>
                 </div>
             </div>
-            <div class="foot"></div>
+            <!-- Mobile Footer -->
+            <div class="ft_box mobile_toggle">
+                <img src="./mobileIMG/320/top_logo.png" alt="ftlogo">
+                <ul class="mo_inner">
+                    <li><a href="./introduction.html">회사소개</a></li>
+                    <li><a href="./business.html">사업영역</a></li>
+                    <li><a href="./news.html">미디어센터</a></li>
+                    <li><a href="./contactus.html">고객센터</a></li>
+                </ul>
+                <h4>주식회사 포이</h4>
+                <ul class="ft_addr">
+                    <li>대전광역시 유성구 탑립동 924</li>
+                    <li><span>전화번호</span>042-932-8999</li>
+                    <li><span>사업자등록번호</span>380-81-02198</li>
+                </ul>
+                <p>Copyright&copy; POI Corp, All Rights Reserved.</p>
+            </div>
+            <!-- Mobile Footer 요기까지 -->
+            <div class="foot mobile_none"></div> <!-- class 추가 -->
         </div>
     <script src="./js/foot.js"></script>
     <script src="./js/location.js"></script>
