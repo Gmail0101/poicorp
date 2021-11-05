@@ -106,6 +106,7 @@ em{font-style: normal;}
 }
 .news_reading>img{
     margin-top: 80px;
+    width:100%;
 }
 .news_reading{
     padding-left: 33px;
