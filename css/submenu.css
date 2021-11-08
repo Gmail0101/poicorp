@@ -247,6 +247,7 @@ input[id="menuicon"]:checked + label + div {right:0px;}
 .foot img{width:85px; margin-top: 27px; margin-left: 10%; filter: brightness(0) invert(1);}
 
 .mobile_toggle{display: none;}      /* 모바일 화면으로 가면 사라짐 */
+.mobile_out{display: none !important;}
 .mobile_in{display: none !important;}
 @media screen and (min-width:320px) and (max-width:768px){
     /*
@@ -265,7 +266,7 @@ input[id="menuicon"]:checked + label + div {right:0px;}
     .mobile_in ul li a{font-size: 9.3750vw; font-weight: 900;}
 
     .mo_img{width:100%; height: 100%;}
-    .mobile_none{display: none;}
+    .mobile_none{display: none !important;}
     .mobile_toggle{display: block;}
    	.pro_title,.pr_title,.news_title,.map_title,.us_title,.it_title,.ch_title,.ci_title,.intro_title{transform: translateY(-50%);}
     .pro_title p,.pr_title p,.news_title p,.map_title p,.us_title p,.it_title p,.ch_title p,.ci_title p,.intro_title p,#langwrap,#menu{display: none;}
@@ -362,12 +363,14 @@ input[id="menuicon"]:checked + label + div {right:0px;}
     /* business mobile page */
 
     /* chemistry mobile page*/
+    ul.tabs li:first-child{padding-top: 12px; height: 26px;}
+    ul.tabe li:last-child{line-height: 20px;}
     #ch_wrap{margin: 0px;}
     .mobile_imgout{display: none;}
     .moilbe_img_out{display: none;}
     ul.tabs li{
         width:45%;
-        height: 40px; line-height: 40px;
+        height: 40px; line-height: 20px;
         font-size: 4.3750vw;
         margin-bottom: 24px;
     }
@@ -451,7 +454,6 @@ input[id="menuicon"]:checked + label + div {right:0px;}
     /* it mobile page */
     .tab1_chrct div img{padding: 20px 0px;}
     ul.tabs{display: flex;}
-    ul.tabs li.current{height: 40px; line-height: 40px;}
     ul.tabs li{height: 38px;}
     .sub_title{font-size: 4.0625vw;}
     .tab1_title h2{font-size: 6.2500vw;}
