@@ -38,7 +38,7 @@ $("#menuwrap").html(`
                             </a>
                                 <ul class="langmenu">
                                     <li><a href="./index.html">KR</a></li>
-                                    <li><a href="#">EN</a></li>
+                                    <li><a href="javascript:langChange();">EN</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -339,8 +339,7 @@ $(".moblie_slider").animate({
     }
     
     });
-    
-    
+        
     
     $(".it_item ul li").on('click',function(){
     $(this).addClass("off").siblings().removeClass("off");
@@ -353,3 +352,25 @@ $(".moblie_slider").animate({
         },1000);
     });
 
+    
+
+
+
+    function langChange(){
+        var ko = "/index.html";
+        alert($(location).attr('host'));
+        alert($(location).attr('hostname'));
+        alert($(location).attr('pathname'));
+        alert($(location).attr('href'));
+        alert($(location).attr('port'));
+        alert($(location).attr('protocol'));
+        if ($(location).attr("pathname") == ko){
+            location.href = "./index.html?en";
+        }
+    }
+    // $(location).attr('host');
+    // $(location).attr('hostname');
+    // $(location).attr('pathname');
+    // $(location).attr('href');
+    // $(location).attr('port');
+    // $(location).attr('protocol');
