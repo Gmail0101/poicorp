@@ -106,7 +106,7 @@ nav{text-align: center;}
 #lang>a{font-size: 22px; font-weight: bold;}
 .langmenu>li>a{font-size: 13px; color:#fff; font-weight: bold; line-height: 18px;}
 .langmenu>li>a:hover{color:#D80000;}
-.langmenu>li{text-align: center;}
+.langmenu>li{padding-top: 4px; text-align: center;}
 .langmenu{display: none; border:1px solid rgba(255, 255, 255, 0.5); border-radius: 10px 10px 10px 10px; width:47px; height: 47px;}
 .arr{
     width:10px !important;
