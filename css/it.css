@@ -106,7 +106,6 @@ font-family: 'NanumSquare', sans-serif;
     color:#3D3D3D;
     cursor: pointer;
     margin-bottom: 100px;
- 
   }
 
    ul.tabs li.current{
@@ -152,7 +151,7 @@ padding-bottom: 20px;}
   }
   .tab1_title{text-align: center;}
   .tab1_title img{width:100%;}
-  .tab1_title h2{font-size: 32px; font-weight: 900; margin-bottom: 22px;}
+  .tab1_title h2{font-size: 32px; font-weight: 900; margin-bottom: 22px; width:100%;}
   .tab1_title p{font-size: 17px; margin-bottom: 56px;}
   .tab1_service{
     margin-top: 138px;

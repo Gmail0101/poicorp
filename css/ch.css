@@ -106,7 +106,6 @@ ul.tabs li{
     text-align: center;
     border:1px solid #D2D2D2;
     font-size: 0.9896vw;
-    transition: all 1s;
     margin-bottom: 90px;
     overflow: hidden;
     white-space: nowrap;
