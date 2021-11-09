@@ -273,7 +273,7 @@ $(".ft_close").click(function(){
 });
 
 
-
+/* lang rotate */
 $("#lang").click(function(){
     if($(".arr").hasClass("0")){
         $(".arr").removeClass("0");
@@ -352,7 +352,7 @@ $(".topbtn").click(function() {
     return false;
 });
 
-
+/* 탭 메뉴 */
 $(document).ready(function(){
 	
     $('ul.tabs li').click(function(){

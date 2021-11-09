@@ -255,7 +255,10 @@ new fullpage('#fullpage', {
             $(".invisible").removeClass('visible');
             $(".invisible").addClass('visible2');
             $(".invisible").removeClass('visible3');
-
+            $(".sec3_ch_img div").css({
+                "opacity":"1",
+                "left":"0px",
+            })
 
             $("#menu>li>a").css("color","#363636");
             $("#logo>h1>a>img").attr("src","./images/logo_black.png");

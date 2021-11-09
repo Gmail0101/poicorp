@@ -111,6 +111,9 @@ body {font-family: 'NanumSquare', sans-serif;}
     justify-content: right;
     position: relative;
     height: 470px;
+    left:50px;
+    opacity: 0;
+    transition: all 1s;
 }
 .sec3_ch_img>div>a{
     width:42%;
