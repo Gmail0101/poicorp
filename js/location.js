@@ -37,8 +37,8 @@ $("#menuwrap").html(`
                             <img src="./images/lang_arr.png" alt="arr" class="arr 0">
                             </a>
                                 <ul class="langmenu">
-                                    <li><a href="./index.html">KR</a></li>
-                                    <li><a href="#">EN</a></li>
+                                    <li><a href="javascript:langChangeKr();">KR</a></li>
+                                    <li><a href="javascript:langChange();">EN</a></li>
                                 </ul>
                             </li>
                         </ul>

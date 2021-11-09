@@ -24,7 +24,6 @@ $("#menuwrap").html(`
                         <li><a href="./contactus.html">고객센터</a>
                             <ul class="submenu">
                                 <li><a href="./contactus.html">문의하기</a></li>
-                                
                                 <li><a href="./map.html">찾아오시는길</a></li>
                             </ul>
                         </li>
@@ -37,7 +36,7 @@ $("#menuwrap").html(`
                             <img src="./images/lang_arr.png" alt="arr" class="arr 0">
                             </a>
                                 <ul class="langmenu">
-                                    <li><a href="./index.html">KR</a></li>
+                                    <li><a href="javascript:langChangeKr();">KR</a></li>
                                     <li><a href="javascript:langChange();">EN</a></li>
                                 </ul>
                             </li>
