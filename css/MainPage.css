@@ -651,7 +651,7 @@ sec 동일
     .sec4_it_title,.sec3_ch_title{
         width:100%;
         text-align: center;
-        top:15%;
+        top:10%;
         left: 0%;
     }
     .sec4_it_title h2,.sec3_ch_title>h2{font-size: 10.9375vw; line-height: 45px; margin-bottom: 10px;}
