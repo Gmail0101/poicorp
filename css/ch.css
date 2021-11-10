@@ -245,7 +245,8 @@ ul.tabs li.current{
 }
 .tab-table tr,td,th{text-align: center;}
 table{border-collapse: collapse;}
-table th{background: #F1F1F1;}
+table th{background: #F1F1F1; border-right: 1px solid #C1C1C1;}
+table th:last-child{border-right: 0px;}
 thead{
     border-top: 2px solid #707070;
     border-bottom: 2px solid #144499;

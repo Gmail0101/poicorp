@@ -28,6 +28,7 @@ font-family: 'NanumSquare', sans-serif;
     font-size: 77px;
     line-height: 39px;
     color:#fff;
+    font-weight: 800;
 }
 .map_title h3{
     font-size: 43px;
@@ -63,7 +64,7 @@ font-family: 'NanumSquare', sans-serif;
     margin-bottom: 160px;
 }
 .topbtn{position: fixed; right: 10%;top:90%;}
-.map_content{text-align: center;}
+.map_content{text-align: center; margin-top: 55px;}
 .map_content h2{font-size:45px; font-weight: 800; line-height: 60px; color:#292929;}
 .map_content h2>img{
     width:30px;
@@ -81,9 +82,6 @@ font-family: 'NanumSquare', sans-serif;
 }
 .map_content h4{font-size:28px; font-weight: 800; color:#144499; margin-top: 28px;}
 .map_content p{font-size: 20px; font-weight: bold; color:#292929; margin-top: 22px; margin-bottom: 76px;}
-.map_content{
-    margin-top: 25px;
-}
 
 .map_road_nav{display: flex;}
 .map_road_nav li{ line-height: 43px; font-size: 17px;}

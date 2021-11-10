@@ -35,7 +35,7 @@
     font-family: 'NanumSquare';
 }
 .prev{display: block;}
-.controller{position: absolute; z-index: 2; bottom:300px; transform: translateX(-25%);}
+.controller{position: absolute; z-index: 2; bottom:230px; transform: translateX(-25%);}
 
 
 .slide1_nav{
