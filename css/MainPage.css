@@ -31,8 +31,8 @@ body {font-family: 'NanumSquare', sans-serif;}
 }
 /**************** sec2 ****************************/
  .slide-area li img{
-     width:100%;
-     height: 1080px;
+    width:100%;
+    height: 1080px;
     display: block;
     position: relative;
     transform: scale(1.2);
@@ -110,7 +110,7 @@ body {font-family: 'NanumSquare', sans-serif;}
     display: flex;
     justify-content: right;
     position: relative;
-    height: 470px;
+    height: 50vh;
 }
 .sec3_ch_img div:nth-child(1){
     left:50px;
@@ -321,7 +321,7 @@ sec 동일
     position: relative;
     width:40%;
     overflow: hidden;
-    height: 313px;
+    height: 33.33333333333333vh;
 }
 .sec4_it_img div:nth-child(1){
     left:-50px;
@@ -522,7 +522,8 @@ sec 동일
     height: 1080px;
     animation: bg_ani;
     animation-duration: 8s;
-    animation-iteration-count: infinite;
+    animation-iteration-count:initial; /* 한번만 */
+    /* animation-iteration-count:infinite; 무한반복 */
 }
 
 @keyframes bg_ani{
