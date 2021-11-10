@@ -111,9 +111,17 @@ body {font-family: 'NanumSquare', sans-serif;}
     justify-content: right;
     position: relative;
     height: 470px;
+}
+.sec3_ch_img div:nth-child(1){
     left:50px;
     opacity: 0;
     transition: all 1s;
+}
+.sec3_ch_img div:nth-child(2){
+    left:70px;
+    opacity: 0;
+    transition: all 1s;
+    transition-delay: 0.7s;
 }
 .sec3_ch_img>div>a{
     width:42%;
@@ -140,17 +148,31 @@ body {font-family: 'NanumSquare', sans-serif;}
     color:#1968B2;
     font-weight: 900;
     margin-bottom: 40px;
+    position: relative;
+    top:-30px;
+    opacity: 0;
+    transition: all 1s;
 }
 .sec3_ch_title>em{
     font-size: 1.8229vw;
     font-weight: 900;
     color:#141414;
+    position: relative;
+    top:-30px;
+    opacity: 0;
+    transition: all 1s;
+    transition-delay: 0.7s;
 }
 .sec3_ch_title>p{
     margin-top: 20px;
     font-size: 0.9375vw;
     line-height: 30px;
     color:#4D4D4D;
+    position: relative;
+    top:-30px;
+    opacity: 0;
+    transition: all 1s;
+    transition-delay: 0.7s;
 }
 .sec3_ch_title>img{
     position: absolute;
@@ -272,20 +294,51 @@ sec 동일
     font-size: 4.1667vw;
     line-height: 75px;
     margin-bottom: 40px;
+    position: relative;
+    top:-30px;
+    opacity: 0;
+    transition: all 1s;
 }
 .sec4_it_title em{
     font-size: 1.8229vw;
     font-weight: 900;
+    position: relative;
+    top:-30px;
+    opacity: 0;
+    transition: all 1s;
+    transition-delay: 0.7s;
 }
 .sec4_it_title p{
     font-size: 0.9375vw;
     margin-top: 20px;
+    position: relative;
+    top:-30px;
+    opacity: 0;
+    transition: all 1s;
+    transition-delay: 0.7s;
 }
 .sec4_it_img div{
     position: relative;
     width:40%;
     overflow: hidden;
     height: 313px;
+}
+.sec4_it_img div:nth-child(1){
+    left:-50px;
+    opacity: 0;
+    transition: all 1s;
+}
+.sec4_it_img div:nth-child(2){
+    left:-70px;
+    opacity: 0;
+    transition: all 1s;
+    transition-delay: 0.7s;
+}
+.sec4_it_img div:nth-child(3){
+    left:-70px;
+    opacity: 0;
+    transition: all 1s;
+    transition-delay: 1.4s;
 }
 .sec4_it_img>div>a:hover img{
     transform: scale(1.2);
@@ -657,7 +710,9 @@ sec 동일
         top:10%;
         left: 0%;
     }
-    .sec4_it_title h2,.sec3_ch_title>h2{font-size: 10.9375vw; line-height: 45px; margin-bottom: 10px;}
+    .sec4_it_title h2,.sec3_ch_title>h2{
+        font-size: 10.9375vw; line-height: 45px; margin-bottom: 10px;
+    }
     .sec4_it_title>em,.sec3_ch_title>em{font-size: 5.6250vw;}
     .sec3_mo_img{
         position: absolute;

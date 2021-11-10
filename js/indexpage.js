@@ -255,10 +255,25 @@ new fullpage('#fullpage', {
             $(".invisible").removeClass('visible');
             $(".invisible").addClass('visible2');
             $(".invisible").removeClass('visible3');
-            $(".sec3_ch_img div").css({
+
+            $(".sec3_ch_img div").css({ /* sec3 opacity */
                 "opacity":"1",
-                "left":"0px",
+                "left":"0px"
             })
+            $(".sec3_ch_title>h2").css({
+                "opacity":"1",
+                "top":"0px"
+            })
+            $(".sec3_ch_title>em").css({
+                "opacity":"1",
+                "top":"0px"
+            })
+            $(".sec3_ch_title>p").css({
+                "opacity":"1",
+                "top":"0px"
+            })
+
+
 
             $("#menu>li>a").css("color","#363636");
             $("#logo>h1>a>img").attr("src","./images/logo_black.png");
@@ -318,8 +333,27 @@ new fullpage('#fullpage', {
 
             $("#page_nav ul li:nth-child(5) img").attr('src','./images/one_gray.png');
             $("#page_nav ul li:nth-child(5) a").css({"color":"#707070","transition": "all 0.7s"});
+
             $(".invisible").removeClass('visible2');
             $(".invisible").addClass('visible3');
+
+            $(".sec4_it_img div").css({
+                "opacity":"1",
+                "left":"0px"
+            })
+            $(".sec4_it_title h2").css({
+                "opacity":"1",
+                "top":"0px"
+            })
+            $(".sec4_it_title p").css({
+                "opacity":"1",
+                "top":"0px"
+            })
+            $(".sec4_it_title em").css({
+                "opacity":"1",
+                "top":"0px"
+            })
+
 
             $("#menu>li>a").css("color","#363636");
             $("#logo>h1>a>img").attr("src","./images/logo_black.png");
