@@ -8,6 +8,13 @@
     overflow: hidden;
 } */
 body {font-family: 'NanumSquare', sans-serif;}
+#sec_scroll{
+    display: block;
+    width:100%; height: 100%;
+    position: absolute;
+    top:0; z-index: 1;
+    background-color: rgba(0, 0, 0,0);
+}
 .scroll_bar{
     display: block;
     width:1px; height: 168px;
@@ -164,9 +171,9 @@ body {font-family: 'NanumSquare', sans-serif;}
     transition-delay: 0.7s;
 }
 .sec3_ch_title>p{
-    margin-top: 20px;
+    margin-top: 23px;
     font-size: 0.9375vw;
-    line-height: 30px;
+    line-height: 31px;
     color:#4D4D4D;
     position: relative;
     top:-30px;
@@ -179,8 +186,15 @@ body {font-family: 'NanumSquare', sans-serif;}
     bottom: 55%;
     left: 20%;
     width: 100%;
+    /* animation: roimg;
+    animation-duration:5s;
+    animation-timing-function: linear; 일정속도로 가게함
+    animation-iteration-count:infinite; */
 }
-
+/* @keyframes roimg{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+} */
 
 
 
@@ -310,7 +324,8 @@ sec 동일
 }
 .sec4_it_title p{
     font-size: 0.9375vw;
-    margin-top: 20px;
+    margin-top: 23px;
+    line-height: 31px;
     position: relative;
     top:-30px;
     opacity: 0;
@@ -353,6 +368,7 @@ sec 동일
     font-size: 3.1250vw;
     text-align: right;
     width:45%;
+    font-weight: 900;
 }
 
 /*********************      sec5        ***********************************/
@@ -550,9 +566,9 @@ sec 동일
             /* 320 ~ 768 까지 보여주는 화면 설정 */
 @media screen and (min-width:320px) and (max-width:768px) {
     .mobile_out{display: none;}
-    .sec3_box a,.sec2_box img,#menu,#lang,#page_nav,.prev,.next,.slide-area li>img{display: none;}
+    .sec3_box a,#menu,#lang,#page_nav,.prev,.next,.slide-area li>img{display: none;}
     .sec4_it_title>img,.sec3_ch_title>img,.sec5_nav{display: none;}
-    .sec4_it_title p,.sec3_ch_title>p{display: none;}
+    .sec4_it_title p,.sec3_ch_title>p{font-size: 4.0625vw; line-height: 20px;}
     .mobile_none{display: none !important;}
     .mobile_in{
         display: block !important;
@@ -590,14 +606,14 @@ sec 동일
         text-align: center;
     }
     .sec2_box h2{
-        line-height:1 ;
-        font-size: 7.8125vw;
+        line-height:35px ;
+        font-size: 8vw;
         height: 70%;
     }
     .sec2_box p{
         transform: translateX(85%);
         width:350px;
-        line-height: 20px;
+        line-height: 22px;
         margin-top: 0px;
         font-size: 4.0625vw !important;
     }
@@ -633,17 +649,35 @@ sec 동일
     }
     .mobile ul{
         display: flex; width:90%;
+        flex-wrap: wrap;
         margin: 38px auto;
         justify-content: space-between;
     }
+    .mobile ul li:nth-child(1){
+        background:url(../mobileIMG/320/mobile_map1.png) no-repeat center/cover;
+        width: 48%;
+        height: 111px;
+        margin: 0px 10px 10px 0px;
+    }
+    .mobile ul li:nth-child(2){
+        background:url(../mobileIMG/320/mobile_map2.png) no-repeat center/cover;
+        width: 48%;
+        margin: 0px 0px 10px 0px;
+    }
+    .mobile ul li:nth-child(3){
+        background:url(../mobileIMG/320/mobile_map3.png) no-repeat center/cover;
+        width:100%;
+        margin: 0px 0px 10px 0px;
+    }
+    .mobile ul li{
+        display: block;
+        line-height: 111px;
+    }
     .mobile ul li a{
         display: block;
-        width:100px; height: 100px; line-height: 100px;
-        border: 1px solid #78766C;
-        border-radius: 50%;
         text-align: center;
-        background: rgba(255,255,255,0.3);
-        font-size: 4.0625vw;
+        font-size: 7.5000vw;
+        font-weight: 900;
         color:#fff;
     }
     .ft_box{
@@ -706,38 +740,46 @@ sec 동일
     .controller{transform: none; bottom:10%;}
     #menuwrap{height: 0px !important;}
     .sec4_it_title,.sec3_ch_title{
-        width:100%;
-        text-align: center;
-        top:10%;
-        left: 0%;
+        display: block;
+        width:90%;
+        text-align: left;
+        top:20%;
+        left: 50%;
+        transform: translateX(-50%);
     }
     .sec4_it_title h2,.sec3_ch_title>h2{
-        font-size: 10.9375vw; line-height: 45px; margin-bottom: 10px;
+        font-size: 8.7500vw; line-height: 30px; margin-bottom: 20px;
     }
-    .sec4_it_title>em,.sec3_ch_title>em{font-size: 5.6250vw;}
+    .sec4_it_title>em,.sec3_ch_title>em{font-size: 7.5000vw;}
+    .sec3_ch_title>p{margin-top: 0px;}
     .sec3_mo_img{
         position: absolute;
         bottom:0;
+        width:90% !important;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 30px;
     }
-    .sec3_mo_img>div{position: relative;}
-    .sec3_mo_img>div>a>img{display: flex; width:100%; height: 230px;}
+    .sec3_mo_img>div{position: relative; padding: 10px 0px; height: 16vh;}
+    .sec3_mo_img>div>a>img{display: flex; width:100%; height: 100%;}
     .sec3_mo_img>div>a>h2{
         position: absolute;
         top:50%; left: 10%;
         transform: translateY(-50%);
         color:#fff;
-        font-size: 6.2500vw;
+        font-size: 7.5000vw;
+        line-height: 35px;
         font-weight: 900;
     }
-    .sec4_mo_img{position: absolute;bottom:0;}
-    .sec4_mo_img>div{position: relative;}
-    .sec4_mo_img>div>a>img{display: flex; width:100%; height: 160px;}
+    .sec4_mo_img{position: absolute;bottom:0; width:90% !important; left: 50%; transform: translateX(-50%);}
+    .sec4_mo_img>div{position: relative; padding: 10px 0px;}
+    .sec4_mo_img>div>a>img{display: flex; width:100%; height: 12vh;}
     .sec4_mo_img>div>a>h2{
         position: absolute;
         top:50%; right: 10%;
         transform: translateY(-50%);
         color:#fff;
-        font-size: 6.2500vw;
+        font-size:7.5000vw;
         font-weight: 900;
         
     }

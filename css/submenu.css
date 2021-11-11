@@ -433,11 +433,11 @@ input[id="menuicon"]:checked + label + div {right:0px;}
     .tab2-title{border:1px solid #CFCFCF; width:90%; height: auto; margin: 0 auto; margin-top: 38px; margin-bottom: 26px;}
     .tab2-txt p{font-size: 4.0625vw; line-height: 25px;}
     .tab2-title p{font-size: 3.1250vw; line-height: 20px; height: 20px;}
-    .tab2-title>img{width:277px; margin: 0 auto; padding-bottom: 10px;}
+    .tab2-title>img{width:100%;}
     .tab2-step{width:90%; margin: 0 auto;}
     .tab2-step-system ul{flex-wrap: wrap; width:100%; justify-content: flex-start; margin: 0 auto;}
     .tab2-step-system ul li div p{font-size:3.4375vw;}
-    .tab2-step-system ul li div{width:113px; height: 60px; border-radius: 30px; }
+    .tab2-step-system ul li div{width:27vw; height: 10vh; border-radius: 30px; }
     .tab2-step-system ul li div span{font-size: 3.4375vw; line-height: 0px;}
     .tab2-step-img img{padding: 25px 5px;}
 

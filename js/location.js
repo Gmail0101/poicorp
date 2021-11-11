@@ -374,10 +374,12 @@ $(function(){
     var chlink = "/chemistry.html?tab-2";
 
     if ($(location).attr("pathname")+""+$(location).attr('search') == chlink){
-        $('.tab-link').eq(0).removeClass('current');
+        $('.tabs>.tab-link').eq(0).removeClass('current');
+        $('.mobile_flex>.tab-link').eq(0).removeClass('current');
         $('.tab-content').eq(0).removeClass('current');
 
-        $('.tab-link').eq(1).addClass('current');
+        $('.tabs>.tab-link').eq(1).addClass('current');
+        $('.mobile_flex>.tab-link').eq(1).addClass('current');
         $('.tab-content').eq(1).addClass('current');
     }
  })
