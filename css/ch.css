@@ -44,7 +44,7 @@ font-family: 'NanumSquare', sans-serif;
     line-height: 30px;
     color: #fff;
 }
-.ch_nav{width:100%;height: 55px; border-bottom:1px solid #CFCFCF;}
+.ch_nav{position: relative; z-index: 1; width:100%;height: 55px; border-bottom:1px solid #CFCFCF;}
 .ch_nav ul{display: flex; justify-content: flex-start; width:57.29166666666667%; margin: 0 auto;}
 .ch_nav ul li{ 
     display: block;
@@ -66,6 +66,8 @@ font-family: 'NanumSquare', sans-serif;
     width:57.29166666666667%; height: 100%;
     margin: 0 auto;
     margin-bottom: 160px;
+    position: relative;
+    z-index: 1;
 }
 .topbtn{position: fixed; right: 10%;top:90%;}
 .ch_content{text-align: center;}
@@ -89,16 +91,15 @@ ul.tabs{
 	list-style: none;
 }
 ul.tabs li{
-	background: none;
-	color: #3D3D3D;
+	background: #F1F1F1;
+	color: #000;
 	display:block;
-    float: left;
 	cursor: pointer;
     width:50%;
     height:70px; line-height: 70px;
     text-align: center;
-    border:1px solid #D2D2D2;
-    font-size: 0.9896vw;
+    font-weight: 900;
+    font-size: 1.0417vw;
     margin-top: 143px;
     margin-bottom: 156px;
     overflow: hidden;
@@ -114,7 +115,6 @@ ul.tabs li::after{
 }
 ul.tabs li.current{
 	background: #144499;
-    border:1px solid #144499;
     font-weight: 800;
 	color: #fff;
 }
@@ -355,6 +355,15 @@ table td span{
 table td:last-child{border:0px}
 table img{vertical-align: middle; margin: 5px auto;}
 
+.tab-table-img{
+    margin-top: 84px;
+    background:#F5F5F5;
+    display: flex;
+    justify-content:center;
+}
+.tab-table-img ul{padding: 90px 45px 127px 45px;}
+.tab-table-img ul li:nth-child(1){margin-bottom: 20px; font-size: 1.8229vw; font-weight: 900;}
+.tab-table-img ul li img{padding: 5px;}
 .tab-con{
     display: block;
     width:27%; height: 70px; line-height: 70px;

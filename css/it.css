@@ -41,20 +41,23 @@ font-family: 'NanumSquare', sans-serif;
     line-height: 30px;
     color: #fff;
 }
-.it_nav{position: relative; bottom:70px; background: rgba(0,0,0,0.5); width:100%;height: 70px;}
-.it_nav ul{display: flex; justify-content: center;}
+.it_nav{position: relative; width:100%;height: 55px; border-bottom:1px solid #CFCFCF;}
+.it_nav ul{display: flex; justify-content: flex-start; width:57.29166666666667%; margin: 0 auto;}
 .it_nav ul li{ 
-    display: block;
-    width:18.85416666666667%;
-    text-align: center;
-    height: 70px;
-    line-height: 70px;
-    font-weight: 800;
+  display: block;
+  width: 15%;
+  text-align: center;
+  line-height: 55px;
+  font-weight: 800;
+  text-align: center;
 }
-.it_nav ul li:nth-child(2){
-    background:#1968B2 ;
+.it_nav ul li:nth-child(2){border-bottom:3px solid #154399;}
+.it_nav ul li:hover>:nth-child(2){border-bottom: 3px solid #154399; transform: translateX(-100%);}
+.it_nav ul li:nth-child(2) a{
+  color:#154399;
 }
-.it_nav ul li a{color:#fff; font-size: 20px; width: 100%; display: block;}
+.it_nav ul li a{color:#333; font-size: 1.0417vw; font-weight: 900;}
+.it_nav ul li:nth-child(2) a{border-right: 1px solid #CFCFCF; border-left:1px solid #CFCFCF; padding: 0px 40px;}
 
 #it_wrap{
     display: block;
