@@ -45,7 +45,7 @@ font-family: 'NanumSquare', sans-serif;
 .it_nav ul{display: flex; justify-content: flex-start; width:57.29166666666667%; margin: 0 auto;}
 .it_nav ul li{ 
   display: block;
-  width: 15%;
+  width: 10vw;
   text-align: center;
   line-height: 55px;
   font-weight: 800;
@@ -57,7 +57,7 @@ font-family: 'NanumSquare', sans-serif;
   color:#154399;
 }
 .it_nav ul li a{color:#333; font-size: 1.0417vw; font-weight: 900;}
-.it_nav ul li:nth-child(2) a{border-right: 1px solid #CFCFCF; border-left:1px solid #CFCFCF; padding: 0px 40px;}
+.it_nav ul li:nth-child(2){border-right: 1px solid #CFCFCF; border-left:1px solid #CFCFCF;}
 
 #it_wrap{
     display: block;

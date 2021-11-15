@@ -49,7 +49,6 @@ font-family: 'NanumSquare', sans-serif;
     margin-bottom: 139px;
 }
 .topbtn{position: fixed; right: 10%;top:90%; z-index: 9;}
-.bu_content{text-align: center;}
 .bu_content h4{font-size:50px; font-weight: 800; color:#144499; margin-top: 111px;}
 .bu_content p{line-height: 35px; font-size: 20px; font-weight: bold; color:#292929; margin-top: 22px;}
 .bu_content{
@@ -64,17 +63,18 @@ font-family: 'NanumSquare', sans-serif;
     display: block;
     width:57.29166666666667%;
     height: 50%;
-    position: absolute;
+    position: relative;
     top:0;
     left: 50%;
-    transform: translate(-50%,50%);
+    transform: translateX(-50%);
+    margin-bottom: 167px;
 }
 .bu_link_bg>ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .bu_link_bg>ul>li>img{
-    width:99%;
+    width:27vw;
     border:3px solid #fff;
 }
 .bu_link_bg>ul>li{

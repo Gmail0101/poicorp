@@ -48,7 +48,7 @@ font-family: 'NanumSquare', sans-serif;
 .ch_nav ul{display: flex; justify-content: flex-start; width:57.29166666666667%; margin: 0 auto;}
 .ch_nav ul li{ 
     display: block;
-    width: 15%;
+    width: 10vw;
     text-align: center;
     line-height: 55px;
     font-weight: 800;
@@ -59,7 +59,7 @@ font-family: 'NanumSquare', sans-serif;
     color:#154399;
 }
 .ch_nav ul li a{color:#333; font-size: 1.0417vw; font-weight: 900;}
-.ch_nav ul li:nth-child(2) a{border-right: 1px solid #CFCFCF; border-left:1px solid #CFCFCF; padding: 0px 40px;}
+.ch_nav ul li:nth-child(2){height: 55px; border-right: 1px solid #CFCFCF; border-left:1px solid #CFCFCF;}
 
 #ch_wrap{
     display: block;
@@ -67,7 +67,6 @@ font-family: 'NanumSquare', sans-serif;
     margin: 0 auto;
     margin-bottom: 160px;
     position: relative;
-    z-index: 1;
 }
 .topbtn{position: fixed; right: 10%;top:90%;}
 .ch_content{text-align: center;}
@@ -258,14 +257,13 @@ ul.tabs li.current{
 }
 .tab-step1{margin-top: 20px;}
 .tab-step1 ul li div img{margin:0 auto;}
-.tab-step1 ul li div{outline: 3px solid #D5EFFF; position: relative;}
+.tab-step1 ul li div{position: relative;}
 .tab-step1 ul li:nth-child(1) div::after{content: "1";position: absolute;top:-10px; left: -15px;font-weight:900;width:35px; height: 35px;background:#154399;color:#fff;font-size: 1.1458vw;border-radius: 50%;line-height: 35px;}
 .tab-step1 ul li:nth-child(3) div::after{content: "2";position: absolute;top:-10px; left: -15px;font-weight:900;width:35px; height: 35px;background:#154399;color:#fff;font-size: 1.1458vw;border-radius: 50%;line-height: 35px;}
 .tab-step1 ul li:nth-child(5) div::after{content: "3";position: absolute;top:-10px; left: -15px;font-weight:900;width:35px; height: 35px;background:#154399;color:#fff;font-size: 1.1458vw;border-radius: 50%;line-height: 35px;}
 .tab-step1 ul li:nth-child(7) div::after{content: "4";position: absolute;top:-10px; left: -15px;font-weight:900;width:35px; height: 35px;background:#154399;color:#fff;font-size: 1.1458vw;border-radius: 50%;line-height: 35px;}
 .tab-step1 ul li:nth-child(9) div::after{content: "5";position: absolute;top:-10px; left: -15px;font-weight:900;width:35px; height: 35px;background:#154399;color:#fff;font-size: 1.1458vw;border-radius: 50%;line-height: 35px;}
 
-.tab-step1 ul{justify-content: space-around;}
 .tab-supply{position: relative; background: #F5F5F5; padding: 100px; margin-bottom: 160px;}
 .tab-supply img{width:100%;}
 .tab-supply h2{font-size: 1.8229vw; line-height: 45px; transition: all 1s; font-weight: 800;}
