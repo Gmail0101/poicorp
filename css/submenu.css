@@ -251,6 +251,7 @@ input[id="menuicon"]:checked + label + div {right:0px;}
 .mobile_flex{display: none !important;}
 .mobile_in{display: none !important;}
 @media screen and (min-width:320px) and (max-width:768px){
+    
     /*
         mobile page search
         page name : *** mobile page 
@@ -258,6 +259,7 @@ input[id="menuicon"]:checked + label + div {right:0px;}
     */
 
     /* subpage 공통사용 */
+
     .mobile_imgout{display: none;}
     .mobile_flex{display: flex !important;}
     .moilbe_img_out{display: none;}
@@ -280,12 +282,13 @@ input[id="menuicon"]:checked + label + div {right:0px;}
     .bu_visual,.pro_visual,.pr_visual,.news_visual,.map_visual,.us_visual,.it_visual,.ch_visual,.ci_visual,.intro_visual{height: 225px;}
     .pro_nav,.pr_nav,.news_nav,.map_nav,.us_nav,.it_nav,.ch_nav,.ci_nav,.intro_nav{height: 44px; bottom:0px;}
     .pr_nav ul li,.news_nav ul li,.map_nav ul li,.us_nav ul li,.ci_nav ul li,.intro_nav ul li{width:50%; height: 35px; line-height: 35px;}
-    .pr_nav ul li a,.news_nav ul li a,.map_nav ul li a,.us_nav ul li a,.ch_nav ul li a,.ci_nav ul li a,.intro_nav ul li a{font-size:5.3125vw;}
+    .it_nav ul li a,.pr_nav ul li a,.news_nav ul li a,.map_nav ul li a,.us_nav ul li a,.ch_nav ul li a,.ci_nav ul li a,.intro_nav ul li a{font-size:5.3125vw;}
 
     .pro_nav ul li,.it_nav ul li,.ch_nav ul li{width:100%; line-height: 44px; height: 44px;}
 
     #map_wrap,#ci_wrap{margin-bottom: 30px;}
     #pro_wrap,#pr_wrap,.pro_title,.pr_title,#news_wrap,#map_wrap,#ch_wrap,.news_title,.map_title,.us_title,.bu_title,.it_title,.ch_title,#ci_wrap,#intro_wrap{width:100%;}
+    #ch_wrap{margin-bottom: 0;}
     #us_wrap,#it_wrap{width:90%;}
     .pro_content h2,.pr_content h2,.news_content h2,.map_content h2,.us_content h2,.it_content h2,.ch_content h2,.ci_content h2,.intro_content h2{font-size: 6.2500vw; margin-top: 0px;}
     .pro_content h2::after,.pr_content h2::after,.news_content h2::after,.map_content h2::after,.us_content h2::after,.it_content h2::after,.ch_content h2::after,.ci_content h2::after,.intro_content h2::after{margin: 0px auto; width:80%;}
@@ -417,9 +420,11 @@ input[id="menuicon"]:checked + label + div {right:0px;}
     /* 탭 2 */
     .tab2-con-title h2{font-size: 7.8125vw; font-weight: 800;}
     .tab2-con-title p{font-size: 3.7500vw; width:90vw; line-height: 25px; margin-top: 18px; margin-bottom: 0;}
-    .tab2-smart{margin-top: 56px;}
+    .tab2-smart{margin-top: 56px; margin-bottom: 50px;}
     .tab2-smart p{font-size: 5.6250vw;}
-    .tab2-title>img{width:90vw; margin: 0 auto; margin-bottom: 53px;}
+    .tab2-con-title>img{width:90%; margin-top: 40px;}
+    .tab2-title>img{
+        width:90vw; margin: 0 auto; margin-bottom: 53px;}
     .tab2-step-img>img{display: none;}
     .tab2-title{width:90vw; border-bottom: 0; height: auto; margin: 0 auto;}
     .tab2-step-system ul{flex-wrap: wrap; justify-content: center;}
@@ -437,9 +442,27 @@ input[id="menuicon"]:checked + label + div {right:0px;}
     .tab2-step-system ul li:nth-child(9) div p{margin-left: 60px}
     .tab2-step-system ul li:nth-child(9) div span{margin-top: 22px;}
 
-    .tab-con{margin: 0 auto;}
+    .tab-con{margin: 0 auto; margin-top: 60px; margin-bottom: 60px;}
     /* chemistry mobile page */
 
+    /* it mobile page */
+    .it_nav ul{width:100vw;}
+    ul.tabs{display: flex;}
+    
+    .tab1_title p{font-size: 3.7500vw;}
+    .tab1_s_name{width:35%; margin-bottom: 8px; font-size: 4.6875vw;}
+    .tab1_explanation{width:100%;}
+    .tab1_chrct div img{margin-top: 12px; margin-bottom: 55px;}
+    .tab1_expect_name{font-size: 7.5vw; width:10vw; padding-right: 20px;}
+    .tab1_explanation{width:75vw;}
+    .tab1_explanation em{font-size: 4.6875vw;}
+    .tab1_explanation p{font-size: 3.7500vw;}
+    .tab2_s_name{width:80%; font-size: 4.6875vw;}
+    .tab2_explanation{width:100%; margin-top: 8px; font-size: 3.7500vw;}
+    .tab3_s_name{width:100%; font-size: 4.6875vw;}
+    .tab3_explanation{padding: 8px 0px; width:100%; font-size: 3.7500vw;}
+    .tab1_explanation em{line-height: 25px;}
+    /* it mobile page */
 
     /* business mobile page */
 
@@ -454,6 +477,8 @@ input[id="menuicon"]:checked + label + div {right:0px;}
     .bu_link_box{ bottom:3vh;}
 
     /* business mobile page */
+
+
     /* mobile Footer */
     .ft_box ul{margin-top: 0px; padding: 10px 0px;}
     .ft_box{top:0; height: auto; text-align: center;}

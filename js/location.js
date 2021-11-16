@@ -385,8 +385,8 @@ $(function(){
  })
 
  $(function(){
-    var ittwo = "/it.html?tab-2";
-    var itthird = "/it.html?tab-3";
+    var ittwo = "/IT.html?tab-2";
+    var itthird = "/IT.html?tab-3";
 
     if ($(location).attr("pathname")+""+$(location).attr('search') == ittwo){
        
