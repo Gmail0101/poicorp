@@ -39,16 +39,19 @@
             </div>
             <div id="bu_wrap">
                 <div class="bu_content">
-                    <h4 class="mobile_none">
+                    <h4>
                         흡착제 제조/위탁생산<br/>
                         스마트 플랫폼 구축 및 운영 토탈 시스템
                     </h4>
-                    <h4 class="mobile_toggle">
-                        흡착제 제조/위탁생산 스마트 <br/>
-                        플랫폼 구축 및 운영 토탈 시스템
-                    </h4>
-                    <p>주식회사 포이는 화학소재 사업을 기반으로 스마트 제조 기술 개발 중심의 IT사업을 영위하고 있으며
+                    <p class="mobile_none">
+                        주식회사 포이는 화학소재 사업을 기반으로 스마트 제조 기술 개발 중심의 IT사업을 영위하고 있으며<br/>
                         흡착제 제조부터 위탁생산, 웹 어플리케이션 개발까지 다양한 분야에서 서비스를 제공하고 있습니다.
+                    </p>
+                    <p class="mobile_toggle">
+                        주식회사 포이는 화학소재 사업을 기반으로 스마트 제조<br/>
+                        기술 개발 중심의 IT사업을 영위하고 있으며<br/>
+                        흡착제 제조부터 위탁생산, 웹 어플리케이션 개발까지<br/>
+                        다양한 분야에서 서비스를 제공하고 있습니다.
                     </p>
                 </div>
             </div>
@@ -58,14 +61,14 @@
                 <li>
                     <img class="mobile_none" src="business images/NoPath_1.png" alt="사업">
                     <img class="mobile_toggle" src="./mobileIMG/320/mobile1.png" alt="img">
-                    <div class="bu_link_bu">
+                    <!-- <div class="bu_link_bu">
                         <ul class="mobile_none">
                             <li>- 흡착제 및 촉매 제조</li>
                             <li>- 흡착제 및 촉매 위탁 생산</li>
                             <li>- 스마트 제조 기술 적용 유해물질 제거 시스템</li>
                         </ul>
                         <a href="./chemistry.html">자세히보기</a>
-                    </div>
+                    </div> -->
                     <div class="bu_link_box">
                         <h2>화학소재 사업</h2>
                         <p>CHEMICAL MATERIALS</p>
@@ -74,7 +77,7 @@
                 <li class="bu_img">
                     <img class="mobile_none" src="business images/NoPath_2.png" alt="아이티">
                     <img class="mobile_toggle" src="./mobileIMG/320/mobile2.png" alt="img">
-                    <div class="bu_link_bu bu2">
+                    <!-- <div class="bu_link_bu bu2">
                         <ul class="mobile_none">
                             <li>- Network solution</li>
                             <li>- Web/App application</li>
@@ -82,7 +85,7 @@
                             <li>- 공공사업</li>
                         </ul>
                         <a href="./IT.html">자세히보기</a>
-                    </div>
+                    </div> -->
                     <div class="bu_link_box">
                         <h2>IT 사업</h2>
                         <p>INFORMATION TECHNOLOGY</p>
@@ -111,5 +114,15 @@
         <div class="foot mobile_none"></div> <!-- class 추가 -->
         <script src="./js/foot.js"></script>
     <script src="./js/location.js"></script>
+    <script>
+        $(function(){
+            $(".bu_link_bg ul li:nth-child(1)").click(function(){
+                location.href = 'chemistry.html';
+            });
+            $(".bu_link_bg ul li:nth-child(2)").click(function(){
+                location.href = 'IT.html';
+            });
+        });
+    </script>
 </body>
 </html>
