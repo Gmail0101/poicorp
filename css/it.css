@@ -127,7 +127,7 @@ font-family: 'NanumSquare', sans-serif;
 
 
 
-  .sub_title{font-size: 25px; font-weight: 900; padding-bottom: 20px; text-align: center;}
+  .sub_title{font-size: 35px; font-weight: 900; padding-bottom: 20px; text-align: center;}
 
 
   .tab-content{
@@ -140,7 +140,7 @@ font-family: 'NanumSquare', sans-serif;
   .tab1_title{text-align: center; position: relative;}
   .tab1_title img{width:100%;}
   .tab1_title h2{font-size: 50px; font-weight: 900; margin-bottom: 22px; width:100%;}
-  .tab1_title p{font-size: 18px; margin-bottom: 56px; line-height: 30px;}
+  .tab1_title p{font-size: 18px; margin-bottom: 56px; line-height: 27px;}
   .tab1_service{
     margin-top: 138px;
     text-align: left;
@@ -154,18 +154,18 @@ font-family: 'NanumSquare', sans-serif;
 
 
 
-  .tab1_s_name{font-size: 25px;  color:#144499;  font-weight: 900; width: 22.1818%;}
-  .tab2_s_name{font-size: 25px;  color:#144499;  font-weight: 900; width: 30%;}
-  .tab3_s_name{font-size: 25px;  color:#144499;  font-weight: 900; width: 17%;}
+  .tab1_s_name{font-size: 30px;  color:#144499;  font-weight: 900; width: 18.1818%;padding-left:42px;}
+  .tab2_s_name{font-size: 30px;  color:#144499;  font-weight: 900; width: 30%; padding-left:42px;}
+  .tab3_s_name{font-size: 30px;  color:#144499;  font-weight: 900; width: 20%; padding-left:42px;}
   .tab3_explanation{padding-left: 100px; float: right; width: 60%;}
 
-  .tab1_explanation{    width:75%;  }
-  .tab2_explanation{    width:67%;  }
+  .tab1_explanation{    width:73%;  }
+  .tab2_explanation{    width:59%;  }
 
 
   
   .tab1_explanation, .tab2_explanation, .tab3_explanation p{
-      font-size: 17px;
+      font-size: 18px;
       color:#555555;
       line-height: 25px;
       vertical-align: middle;
@@ -174,16 +174,19 @@ font-family: 'NanumSquare', sans-serif;
 
   .tab1_con1{
       border-top:2px solid #2D2D2D ; 
-      padding: 12px 0px 12px 0px;
-      border-bottom: 1px solid #C5C5C5;
+      padding: 35px 0px 0px 0px;
   }
-
-
-  .tab1_con2, .tab1_con3, .tab1_con4{
-
-    padding: 12px 0px 12px 0px;
+  .tab1_expect_con2::after,.tab1_expect_con::after,.tab1_con4::after,.tab1_con3::after,.tab1_con2::after, .tab1_con1::after{
+    content: '';
+    display: block;
+    width:95%; height: 1px;
+    margin: 0 auto;
+    margin-top: 40px;
     border-bottom: 1px solid #C5C5C5;
-}
+  }
+  .tab1_con2, .tab1_con3, .tab1_con4{
+    padding: 35px 0px 0px 0px;
+  }
 
 
   em{font-style: normal;}
@@ -195,12 +198,12 @@ font-family: 'NanumSquare', sans-serif;
   .tab1_expect_con{
     padding: 20px 0px ;
       border-top: 2px solid #2D2D2D;
-      border-bottom:1px solid #C5C5C5;
+      
     }
 
     .tab1_expect_con2{
         padding: 20px 0px;
-          border-bottom:1px solid #C5C5C5;
+          
         }
 
   .tab1_expect_name{
@@ -215,8 +218,8 @@ font-family: 'NanumSquare', sans-serif;
   .tab1_expect_box{
       width:77%;
   }
-  .tab1_explanation em{font-size: 19px; font-weight: 900; color:#144499; line-height: 35px;}
-  .tab1_explanation p{color:#555555; font-size: 17px;}
+  .tab1_explanation em{font-size: 18px; font-weight: 900; color:#144499; line-height: 35px;}
+  .tab1_explanation p{color:#555555; font-size: 18px;}
   .tab-con{
     display: block;
     width:27%; height: 70px; line-height: 70px;
@@ -230,9 +233,9 @@ font-family: 'NanumSquare', sans-serif;
     font-size: 20px;
     font-weight: 800;
 }
-.poi{width:30px !important; position: absolute; top:355px; left: 385px;}
-.poi1{width:30px !important; position: absolute; top:355px; left: 415px;}
-.poi2{width:30px !important; position: absolute; top:355px; left: 435px;}
+.poi{width:30px !important; position: absolute; top:35%; left: 50%; transform: translateX(-50%);}
+.poi1{width:30px !important; position: absolute;  top:33%; left: 50%; transform: translateX(-50%);}
+.poi2{width:30px !important; position: absolute;  top:32%; left: 50%; transform: translateX(-50%);}
 @media screen and (min-width:320px) and (max-width:768px){
   ul.tabs li:nth-child(2){line-height: 30px !important;}
   .poi{width:30px !important; position: absolute; top:-15px; left: 25px;}

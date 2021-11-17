@@ -281,7 +281,7 @@ input[id="menuicon"]:checked + label + div {right:0px;}
     .bu_title h3,.pro_title h3,.pr_title h3,.news_title h3,.map_title h3,.us_title h3,.it_title h3,.ch_title h3,.ci_title h3,.intro_title h3{font-size: 5vw; line-height: 30px;}
     .bu_visual,.pro_visual,.pr_visual,.news_visual,.map_visual,.us_visual,.it_visual,.ch_visual,.ci_visual,.intro_visual{height: 225px;}
     .pro_nav,.pr_nav,.news_nav,.map_nav,.us_nav,.it_nav,.ch_nav,.ci_nav,.intro_nav{height: 44px; bottom:0px;}
-    .pr_nav ul li,.news_nav ul li,.map_nav ul li,.us_nav ul li,.ci_nav ul li,.intro_nav ul li{width:50%; height: 35px; line-height: 35px;}
+    .pr_nav ul li,.news_nav ul li,.map_nav ul li,.us_nav ul li,.ci_nav ul li,.intro_nav ul li{width:100%; height: 45px; line-height: 45px;}
     .it_nav ul li a,.pr_nav ul li a,.news_nav ul li a,.map_nav ul li a,.us_nav ul li a,.ch_nav ul li a,.ci_nav ul li a,.intro_nav ul li a{font-size:5.3125vw;}
 
     .pro_nav ul li,.it_nav ul li,.ch_nav ul li{width:100%; line-height: 44px; height: 44px;}
@@ -292,8 +292,6 @@ input[id="menuicon"]:checked + label + div {right:0px;}
     #us_wrap,#it_wrap{width:90%;}
     .pro_content h2,.pr_content h2,.news_content h2,.map_content h2,.us_content h2,.it_content h2,.ch_content h2,.ci_content h2,.intro_content h2{font-size: 6.2500vw; margin-top: 0px;}
     .pro_content h2::after,.pr_content h2::after,.news_content h2::after,.map_content h2::after,.us_content h2::after,.it_content h2::after,.ch_content h2::after,.ci_content h2::after,.intro_content h2::after{margin: 0px auto; width:80%;}
-    .map_content h2>img,.us_content h2>img,.it_content h2>img,.ch_content h2>img{right: 170px; bottom:13px;}
-    .pro_content h2>img,.pr_content h2>img,.news_content h2>img,.us_content h2>img,.it_content h2>img,.ci_content h2>img,.intro_content h2>img{bottom:10px; right: 115px;}
     .ci_content h4{font-size: 4.0625vw;}
     .map_content p,.us_content p,.ch_content p,.ci_content p,.intro_content p{font-size: 4.0625vw; margin-top: 12px; margin-bottom: 24px;}
     .ch_content p{line-height: 25px;}
@@ -302,183 +300,10 @@ input[id="menuicon"]:checked + label + div {right:0px;}
     /* chemistry mobile page */
     #logo>h1>a>img{width:52px; top:16px; left: 16px; margin-left: 0;}
     input[id="menuicon"] + label{top:32px; right: 16px;}
-    .ch_nav ul{width:100vw;}
+    .intro_nav ul,.ch_nav ul{width:100vw;}
     ul.tabs li{width:45vw; margin-top: 56px; margin-bottom: 68px; height: 50px; line-height: 50px; font-size: 3.7500vw;}
     ul.tabs li:nth-child(2){padding-top: 10px; line-height: 17px; height: 40px;}
-    .ch_content h2>img{right: 255px;}
-    .ch_content p{font-weight: normal;}
-    .tab-img{text-align: center;}
-    .tab-img>img{width: 90vw;}
-    .tab-box h2{margin-top: 57px; font-size: 5.6250vw; font-weight: 900; text-align: center; }
-    .tab-step{width:90vw; margin: 0 auto;}
-    .tab-step ul li div{
-        width:62px;
-        height: 110px;
-        border-radius :8px;
-    }
-    .tab-step ul li div img{margin: 0 auto; margin-top: 10px; text-align: center;}
-    .tab-step ul li:nth-child(1) div img{width:39px;}
-    .tab-step ul li:nth-child(1) div span{margin-top: 5px;}
-    .tab-step ul li:nth-child(3) div img{width:24px;}
-    .tab-step ul li:nth-child(5) div img{width:30px;}
-    .tab-step ul li:nth-child(7) div img{width:38px;}
-    .tab-step ul li:nth-child(9) div img{width:20px;}
-    .tab-step ul li:nth-child(9) div span{margin-top: 6px;}
-    .tab-step ul li div p{font-size:3vw;}
-    .tab-step ul li div span{margin-top: 3px; width:40px; height: 11px; line-height: 11px; font-size: 2.8125vw;}
-    .step-ma img{margin: 0px auto !important; margin-top: 15px !important;}
-    .step-ma span{margin-top: 11px !important;}
-    .steparr{top:40px;}
-    .steparr img{width:5px;}
-    .tab-step ul li{height: 83px;}
     
-    
-    .tab-bead-wrap{padding: 0; width:90vw; margin: 0 auto;}
-    .tap-bead{width:70vw; margin: 0 auto;}
-    .tap-bead p{font-size: 3.7500vw; line-height:21px;}
-    .tap-bead h2{font-size: 4.6875vw; padding-top: 36px;}
-    .tab-Processing ul{flex-wrap: wrap;}
-    .tab-Processing ul li{width:70vw; margin: 0 auto; padding-bottom: 25px;}
-    .tab-Processing ul li div p{font-size: 3.7500vw;}
-
-    .tab-images{margin-top: 57px;}
-    .tab-images h2{text-align: center; font-size: 5.6250vw;}
-    .tab-example{width:90vw; margin: 0 auto;}
-    .tab-example ul{padding: 0; flex-wrap:wrap}
-    .tab-example ul li{font-size: 3.7500vw;}
-    .tab-example ul li:nth-child(1){margin-top: 26px; flex: none; width:90vw; padding: 0; border:0;}
-    .tab-example ul li:nth-child(2),
-    .tab-example ul li:nth-child(3),
-    .tab-example ul li:nth-child(4){flex: 1;}
-    .tab-example ul li:nth-child(2)::after{top:18%; left:15%;}
-    .tab-example ul li:nth-child(3)::after{top:18%; left:9%;}
-    .tab-example ul li:nth-child(4)::after{top:18%; left:15%;}
-    .tab-imgbox{flex-wrap: wrap;}
-    .tab-imgbox div:nth-child(1){padding: 50px;}
-    .tab-imgbox div img:nth-child(1){top:4%; left: 2%;}
-    .tab-imgbox div:nth-child(2)>img:nth-child(1){ left: 2%;}
-    .tab-imgbox div:nth-child(2){padding: 50px;}
-    .tab-imgbox div{ margin: 0 auto;}
-
-
-    .tab-produce h2{margin-top: 70px; margin-bottom: 10px; font-size: 5.6250vw; text-align: center;}
-    
-    .tab-step1 ul{margin-top: 26px;}
-    .tab-step1 ul li div span{margin-top: 14px;}
-    .tab-step1 ul li:nth-child(1) div span{margin-top: 10px;}
-    .tab-step1 ul li:nth-child(3) div span{margin-top: 17px;}
-    .tab-step1 ul li:nth-child(9) div span{margin-top: 15px;}
-    .tab-step1 ul li:nth-child(1) div img{width: 40px;}
-    .tab-step1 ul li:nth-child(3) div img{width: 43px;}
-    .tab-step1 ul li:nth-child(5) div img{width: 24px;}
-    .tab-step1 ul li:nth-child(7) div img{width: 31px;}
-    .tab-step1 ul li:nth-child(9) div img{width: 31px;}
-    .tab-step1 ul li:nth-child(1) div::after,
-    .tab-step1 ul li:nth-child(3) div::after,
-    .tab-step1 ul li:nth-child(5) div::after,
-    .tab-step1 ul li:nth-child(7) div::after,
-    .tab-step1 ul li:nth-child(9) div::after{all: unset;}
-
-    .tab-supply{width:70vw; margin: 0 auto; padding: 50px;}
-    .tab-supply p{font-size: 3.7500vw; line-height: 25px;}
-    .tab-supply h2{font-size: 4.6875vw; line-height: 30px; }
-    .tab-table-caption h2{display: block; text-align: center; font-size: 5.6250vw; margin-top: 61px;}
-    .tab-table-caption span{display: block; width:80vw; margin: 10px auto; font-size: 3.7500vw; text-align: center;}
-
-    .tab-caption{width:90vw; margin: 0 auto;}
-    .tab-caption ul{flex-wrap: wrap;}
-    .tab-caption ul li{font-size: 3.7500vw;}
-    .tab-caption ul li:nth-child(1){flex: none; padding: 0; border:0; width:90vw; font-size: 3.7500vw; font-weight: 800;}
-    .tab-caption ul li:nth-child(2){flex:none; padding: 35px 0px 35px 70px; width:22vw;}
-    .tab-caption ul li:nth-child(3){flex:none; padding: 35px 0px 35px 55px; width:33vw;}
-    .tab-caption ul li:nth-child(4){flex:none; padding: 0px 0px 0px 70px; width:16vw;}
-    .tab-caption ul li:nth-child(5){flex:none; padding: 0px 0px 0px 80px; width:26vw;}
-    .tab-caption ul li:nth-child(2)::after{top:37%; left: 25%;}
-    .tab-caption ul li:nth-child(3)::after{top: 37%; left: 13%;}
-    .tab-caption ul li:nth-child(4)::after{top: 3%; left: 30%;}
-    .tab-caption ul li:nth-child(5)::after{left: 27%;}
-    .tab-caption ul li{flex: none;}
-
-    .tab-table{ width:90vw; margin: 0 auto;}
-    table th{height: 30px; font-size: 3.7500vw;}
-    table td{padding: 10px 0px; font-size: 3.7500vw;}
-    table th:first-child{width:45px;}
-    table th:nth-child(2){width:180px !important;}
-    table td:last-child{text-align: left; padding-left: 40px;}
-
-    .tab-table-img{flex-wrap: wrap; margin-top: 60px; padding-bottom: 30px;}
-    .tab-table-img h2{width:90vw; padding: 50px; text-align: center; font-size: 4.6875vw; font-weight: 800;}
-    .tab-table-img ul li:nth-child(1){text-align: center; font-size: 3.1250vw; font-weight: 800;}
-    .tab-table-img ul li img{width:23.4375vw;}
-    .tab-table-img ul{padding: 5px; align-items: center; }
-    .tab-table-img ul li:nth-child(1){margin: 0;}
-
-
-    .tab-con{width:56.25vw;}
-
-
-    /* 탭 2 */
-    .tab2-con-title h2{font-size: 7.8125vw; font-weight: 800;}
-    .tab2-con-title p{font-size: 3.7500vw; width:90vw; line-height: 25px; margin-top: 18px; margin-bottom: 0;}
-    .tab2-smart{margin-top: 56px; margin-bottom: 50px;}
-    .tab2-smart p{font-size: 5.6250vw;}
-    .tab2-con-title>img{width:90%; margin-top: 40px;}
-    .tab2-title>img{
-        width:90vw; margin: 0 auto; margin-bottom: 53px;}
-    .tab2-step-img>img{display: none;}
-    .tab2-title{width:90vw; border-bottom: 0; height: auto; margin: 0 auto;}
-    .tab2-step-system ul{flex-wrap: wrap; justify-content: center;}
-    .tab2-step-system ul li div{width:90vw; height: 52px;}
-    .tab2-step-system ul li:nth-child(7) div{margin: 0 auto;}
-    .tab2-step-system>ul>li>p{width:90vw; margin: 0 auto; font-size: 3.7500vw; margin-top: 10px; margin-bottom: 25px;}
-    .tab2-step-system ul li div p{width:auto; margin-top: -34px;}
-    .tab2-step-system ul li:nth-child(1) div p{margin-top: -35px; margin-left: 50px;}
-    .tab2-step-system ul li:nth-child(1) div span{margin-top: 22px;}
-    .tab2-step-system ul li:nth-child(3) div p{ margin-top: -35px; margin-left: 50px;}
-    .tab2-step-system ul li:nth-child(3) div span{margin-top: 22px;}
-    .tab2-step-system ul li:nth-child(5) div span{margin-top: 22px;}
-    .tab2-step-system ul li:nth-child(7) div p{margin-left: 60px}
-    .tab2-step-system ul li:nth-child(7) div span{margin-top: 22px;}
-    .tab2-step-system ul li:nth-child(9) div p{margin-left: 60px}
-    .tab2-step-system ul li:nth-child(9) div span{margin-top: 22px;}
-
-    .tab-con{margin: 0 auto; margin-top: 60px; margin-bottom: 60px;}
-    /* chemistry mobile page */
-
-    /* it mobile page */
-    .it_nav ul{width:100vw;}
-    ul.tabs{display: flex;}
-    
-    .tab1_title p{font-size: 3.7500vw;}
-    .tab1_s_name{width:35%; margin-bottom: 8px; font-size: 4.6875vw;}
-    .tab1_explanation{width:100%;}
-    .tab1_chrct div img{margin-top: 12px; margin-bottom: 55px;}
-    .tab1_expect_name{font-size: 7.5vw; width:10vw; padding-right: 20px;}
-    .tab1_explanation{width:75vw;}
-    .tab1_explanation em{font-size: 4.6875vw;}
-    .tab1_explanation p{font-size: 3.7500vw;}
-    .tab2_s_name{width:80%; font-size: 4.6875vw;}
-    .tab2_explanation{width:100%; margin-top: 8px; font-size: 3.7500vw;}
-    .tab3_s_name{width:100%; font-size: 4.6875vw;}
-    .tab3_explanation{padding: 8px 0px; width:100%; font-size: 3.7500vw;}
-    .tab1_explanation em{line-height: 25px;}
-    /* it mobile page */
-
-    /* business mobile page */
-
-
-    #bu_wrap{width:90vw; margin-bottom: 39px;}
-    .bu_content h4{color:#000; font-size: 6.2500vw; margin: 0 auto; text-align: center; width:75vw;}
-    .bu_content p{text-align: center; font-size: 4vw; line-height: 21px; font-weight: normal;}
-    .bu_link_bg{width:90vw; margin-bottom: 72px;}
-    .bu_link_bg>ul>li>img{width:40vw;}
-    .bu_link_box h2{font-size: 4.6875vw;}
-    .bu_link_box p{font-size: 2.8125vw; line-height: normal;}
-    .bu_link_box{ bottom:3vh;}
-
-    /* business mobile page */
-
-
     /* mobile Footer */
     .ft_box ul{margin-top: 0px; padding: 10px 0px;}
     .ft_box{top:0; height: auto; text-align: center;}
