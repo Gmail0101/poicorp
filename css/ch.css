@@ -130,13 +130,13 @@ ul.tabs li.current{
 .tab-box{margin-top: 127px;}
 
 
-
+.tab-supply>img{width:100%}
 .tab-supply ul,.tab-box ul{justify-content: space-between; margin-top: 23px; margin-bottom: 40px;}
 .box-arr{transform: translateY(50px);}
 .tab-supply ul li div,.tab-box ul li div{
     border:1px solid #A2A2A2;
     border-radius: 8px;
-    width:60px;
+    width:62px; height: 111px;
     text-align: center;
 }
 .tab-supply ul li div p,.tab-box ul li div p{font-size: 3.7500vw; color:#144499; font-weight: 900; padding: 5px 0px;}
@@ -594,6 +594,53 @@ table img{vertical-align: middle; margin: 5px auto;}
         margin-top: 26px;
         margin-bottom: 30px;
     }
+
+    .mobile_ex ul{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        margin-bottom: 27px;
+    }
+    .mobile_ex ul li:nth-child(1){
+        width:100%;
+        font-size: 3.7500vw;
+        font-weight: 900;
+        margin-top: 26px;
+        margin-bottom: 19px;
+    }
+    .mobile_ex ul li:nth-child(2),
+    .mobile_ex ul li:nth-child(3),
+    .mobile_ex ul li:nth-child(4){
+        width:30%;
+        font-size: 3.7500vw;
+    }
+    .mobile_ex ul li:nth-child(2)::after,
+    .mobile_ex ul li:nth-child(3)::after,
+    .mobile_ex ul li:nth-child(4)::after{
+        content: '';
+        display: block;
+        width:100%;
+        height: 100%;
+        background: url("../chemistry\ images/14321432.png") no-repeat center;
+        position: relative;
+        top:-100%;
+        left: -30%;
+        
+    }
+    .mobile_ex>div>div>img{
+        width:70%;
+        padding: 30px;
+    }
+    .mobile_ex>div{
+        width:90vw;
+        margin: 0 auto;
+        padding: 50px 0px;
+        background: #F5F5F5;
+        margin-bottom: 70px;
+    }
+
+
+
     table{
         width:90vw;
         margin: 0 auto;
