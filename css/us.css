@@ -40,20 +40,27 @@ font-family: 'NanumSquare', sans-serif;
     line-height: 30px;
     color: #fff;
 }
-.us_nav{position: relative; bottom:70px; background: rgba(0,0,0,0.5); width:100%;height: 70px;}
-.us_nav ul{display: flex; justify-content: center;}
+.us_nav{position: relative; bottom:0px; width:100%;height: 55px; border-bottom:1px solid #CFCFCF;}
+.us_nav ul{display: flex; justify-content: flex-start; width:57.29166666666667%; margin: 0 auto;}
 .us_nav ul li{ 
     display: block;
-    width:28.64583333333333%;
+    width: 10vw;
     text-align: center;
-    height: 70px;
-    line-height: 70px;
+    height: 52px;
+    line-height: 56px;
     font-weight: 800;
+    text-align: center;
 }
 .us_nav ul li:nth-child(1){
-    background:#1968B2 ;
+    position: relative;
+    top:0px;
+    border-bottom:3px solid #154399;
 }
-.us_nav ul li a{color:#fff; font-size: 20px; display: block; width:100%}
+.us_nav ul li:nth-child(1) a{
+    color:#154399;
+    border-right: 1px solid #CFCFCF;
+}
+.us_nav ul li a{font-size: 1.0417vw; display: block; width:100%;}
 
 #us_wrap{
     display: block;
@@ -64,12 +71,13 @@ font-family: 'NanumSquare', sans-serif;
 }
 .topbtn{position: fixed; right: 10%;top:90%;}
 .us_content,.us_system{text-align: center;}
-.us_content h2{font-size:45px; font-weight: 800; line-height: 60px; color:#292929;}
+.us_content h2{position: relative; font-size:45px; font-weight: 800; line-height: 60px; color:#292929;}
 .us_content h2>img{
     width:30px;
-    position:relative;
-    bottom:30px;
-    right:180px;
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top:-33%;
 }
 .us_content h2::after{
     content: '';
@@ -81,7 +89,7 @@ font-family: 'NanumSquare', sans-serif;
 }
 .us_content p{font-size: 20px; font-weight: bold; color:#292929; margin-top: 22px; margin-bottom: 76px; line-height: 35px;}
 .us_content{
-    margin-top: 55px;
+    margin-top: 75px;
 }
 .mail_pit img{width:25px; height: 25px; transform: translateY(70%); padding-left:30px;}
 .mail_pit p{width:150px; overflow: hidden; margin-left: 20px;}
@@ -161,4 +169,7 @@ input[id="chk"]:checked + input[type="button"]{
 .mail_cmpn p{
     font-size:16px;
     font-weight: bold;
+}
+@media screen and (min-width:320px) and (max-width:768px){
+    .us_nav ul{width:100%;}
 }

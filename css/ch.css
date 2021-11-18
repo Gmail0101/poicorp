@@ -55,7 +55,7 @@ font-family: 'NanumSquare', sans-serif;
     font-weight: 800;
     text-align: center;
 }
-.ch_nav ul li:nth-child(1){border-bottom:3px solid #154399;}
+.ch_nav ul li:nth-child(1){position: relative;top:-3px; border-bottom:3px solid #154399;}
 .ch_nav ul li:nth-child(1) a{
     color:#154399;
 }
@@ -136,7 +136,7 @@ ul.tabs li.current{
 .tab-supply ul li div,.tab-box ul li div{
     border:1px solid #A2A2A2;
     border-radius: 8px;
-    width:62px; height: 111px;
+    width:65px; height: 111px;
     text-align: center;
 }
 .tab-supply ul li div p,.tab-box ul li div p{font-size: 3.7500vw; color:#144499; font-weight: 900; padding: 5px 0px;}
@@ -286,37 +286,6 @@ ul.tabs li.current{
     margin-top: 50px;
     margin-bottom: 45px;
 }
-.tab-caption ul{display: flex; padding: 50px 0px; align-items: center; }
-.tab-caption ul li:nth-child(1){padding: 15px;}
-.tab-caption ul li:nth-child(2),
-.tab-caption ul li:nth-child(3),
-.tab-caption ul li:nth-child(4),
-.tab-caption ul li:nth-child(5){padding: 0px 50px; position: relative; height: 30px;}
-.tab-caption ul li:nth-child(2)::after{
-    content: '';
-    display: block;
-    width:100%; height: 100%;
-    background-image: url("../chemistry images/ch_click.png");
-    background-repeat: no-repeat;
-    position: absolute;
-    top:-5%;left: 24%;
-}
-.tab-caption ul li:nth-child(3)::after,
-.tab-caption ul li:nth-child(4)::after,
-.tab-caption ul li:nth-child(5)::after{
-    content: '';
-    display: block;
-    width:100%; height: 100%;
-    background-image: url("../chemistry images/ch_click.png");
-    background-repeat: no-repeat;
-    position: absolute;
-    top:-5%;left: 5%;
-}
-.tab-caption ul li:nth-child(1){flex:0.3; text-align: center; border-right: 1px solid #CFCFCF;}
-.tab-caption ul li:nth-child(2){flex:0.18; padding-left: 100px;}
-.tab-caption ul li:nth-child(3){flex:0.19}
-.tab-caption ul li:nth-child(4){flex:0.2}
-.tab-caption ul li:nth-child(5){flex:0.18}
 .tab-table tr,td,th{text-align: center;}
 table{border-collapse: collapse; width:100%;}
 table th{background: #F1F1F1; border-right: 1px solid #C1C1C1;}
@@ -504,11 +473,12 @@ table img{vertical-align: middle; margin: 5px auto;}
 .poi{width:30px !important; position: absolute; top:-8.3%; transform:translateX(-50%)}
 
 @media screen and (min-width:320px) and (max-width:768px){
+    .ch_content h2{font-size: 7.8125vw;}
     .tab-img{text-align: center;}
     .tab-img>img{width:90%;}
 
     .tab-box{margin: 0 auto; margin-top: 57px; width: 90vw;}
-    .tab-box h2{font-size: 5.6250vw;}
+    .tab-box h2{font-size: 5.6250vw; padding-bottom: 9px;}
 
     .tab-bead-wrap{
         margin: 0 auto;
@@ -517,28 +487,28 @@ table img{vertical-align: middle; margin: 5px auto;}
     }
     .tap-bead h2{
         font-size: 4.6875vw;
-        padding-top: 36px;
-        margin-left: 30px;
+        padding-top: 50px;
+        margin-left: 38px;
     }
     .tap-bead p{
         font-size: 3.7500vw;
         width:290px;
-        margin-left: 30px;
+        margin-left: 38px;
     }
     .tab-Processing ul{flex-wrap: wrap;}
     .tab-Processing ul li{
-        width:90%;
+        width:80%;
         margin: 0 auto;
         padding-bottom: 34px;
     }
-    .tab-Processing ul li:last-child{padding-bottom: 41px;}
-    .tab-Processing ul li div p{font-weight: 900; font-size: 3.7500vw;}
-
+    .tab-Processing ul li:last-child{padding-bottom: 41px; }
+    .tab-Processing ul li div p{font-weight: 900; font-size: 3.7500vw; height: 40px; line-height: 40px;}
+    .tab-images{margin-top: 57px;}
     .tab-images h2{
         font-size: 5.6250vw;
         border-bottom: 2px solid #000;
         width:90vw;
-        padding-bottom: 20px;
+        padding-bottom: 9px;
         margin: 0 auto;
     }
     .mobile_img{
@@ -549,7 +519,7 @@ table img{vertical-align: middle; margin: 5px auto;}
     .tab-supply{width: 90vw; margin: 0 auto;}
     .tab-supply h2{
         font-size: 5.6250vw;
-        padding-bottom: 20px;
+        padding-bottom: 9px;
     }
     .tab-supply>img{
         width:90vw;
@@ -561,29 +531,30 @@ table img{vertical-align: middle; margin: 5px auto;}
     .tab-sup{
         width:90vw;
         margin: 0 auto;
-        height: 430px;
+        height: 490px;
     }
     .tab-sup span{
-        padding-top: 41px;
-        padding-left: 30px;
+        padding-top: 55px;
+        padding-left: 40px;
         font-size: 4.6875vw;
-        line-height: 20px;
+        line-height: 25px;
     }
     .tab-sup p{
         font-size: 3.7500vw;
-        padding-left: 30px;
+        padding-left: 40px;
+        line-height: 23px;
         width:255px;
     }
     .tab-sup img{
-        padding-left: 30px;
+        padding-left: 40px;
     }
-
+    .tab-table-caption{margin-top: 61px;}
     .tab-table-caption h2{
         font-size: 5.6250vw;
     }
     .tab-table-caption span{
         font-size: 3.7500vw;
-        line-height:15px;
+        line-height:20px;
         width:330px;
         margin: 0 auto;
         margin-top: 9px;
@@ -611,7 +582,7 @@ table img{vertical-align: middle; margin: 5px auto;}
     .mobile_ex ul li:nth-child(2),
     .mobile_ex ul li:nth-child(3),
     .mobile_ex ul li:nth-child(4){
-        width:30%;
+        width:19%;
         font-size: 3.7500vw;
     }
     .mobile_ex ul li:nth-child(2)::after,
@@ -624,11 +595,10 @@ table img{vertical-align: middle; margin: 5px auto;}
         background: url("../chemistry\ images/14321432.png") no-repeat center;
         position: relative;
         top:-100%;
-        left: -30%;
-        
+        left: -45%;
     }
     .mobile_ex>div>div>img{
-        width:70%;
+        width:80%;
         padding: 30px;
     }
     .mobile_ex>div{
@@ -639,6 +609,47 @@ table img{vertical-align: middle; margin: 5px auto;}
         margin-bottom: 70px;
     }
 
+    .tab-caption{
+        width: 90vw;
+        margin: 0 auto;
+        border-top: 2px solid #000;
+    }
+    .tab-caption div ul{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+    .tab-caption div ul li:nth-child(1){
+        font-size: 3.7500vw;
+        font-weight: 900;
+        width:90vw;
+        margin-top: 26px;
+        margin-bottom: 23px;
+    }
+    .tab-caption div ul li:nth-child(2),
+    .tab-caption div ul li:nth-child(3),
+    .tab-caption div ul li:nth-child(4),
+    .tab-caption div ul li:nth-child(5){
+        width: 32vw;
+        font-size: 3.7500vw;
+        line-height: 20px;
+        margin-left: 35px;
+        margin-bottom: 30px;
+        text-align: left;
+    }
+    .tab-caption div ul li:nth-child(2)::after,
+    .tab-caption div ul li:nth-child(3)::after,
+    .tab-caption div ul li:nth-child(4)::after,
+    .tab-caption div ul li:nth-child(5)::after{
+        content: '';
+        display: block;
+        width:100%;
+        height: 100%;
+        background: url("../chemistry\ images/14321432.png") no-repeat center;
+        position: relative;
+        top:-125%;
+        left: -60%;
+    }
 
 
     table{
@@ -653,7 +664,7 @@ table img{vertical-align: middle; margin: 5px auto;}
     }
     .tab-table-img h2{
         font-size: 4.6875vw;
-        padding-top: 25px;
+        padding-top: 40px;
         margin-left: 36px;
         margin-bottom: 20px;
     }
@@ -667,6 +678,61 @@ table img{vertical-align: middle; margin: 5px auto;}
     .tab-table-img ul li:nth-child(3),
     .tab-table-img ul li:nth-child(4){padding: 2px;}
 
-    .tab-con{width:43vw; margin-top: 64px; margin-bottom: 67px;}
+    .tab-con{width:64vw; margin-top: 64px; margin-bottom: 67px;}
     .tab-con a{font-size: 4.6875vw;}
+
+
+    /* tab2  */
+
+    .tab2-con-title h2{font-size: 7.8125vw;}
+    .ch_content h2>img{width:16px; top:-15%;}
+    .poi{width:16px !important; top:-5.3%;}
+
+    .tab2-con-title p{
+        width:91vw;
+        font-size: 3.7500vw;
+        line-height: 23px;
+        margin-top: 17px;
+        margin-bottom: 24px;
+    }
+    .tab2-con-title>img{
+        margin: 0 auto;
+        width:90%;
+    }
+
+    .tab2-smart p{
+        font-size: 5.6250vw;
+        width: 90vw;
+        margin: 0 auto;
+        padding-bottom: 9px;
+    }
+    .tab2-smart{border: 0; margin-top: 60px; }
+    .smartIMG{display: none;}
+    .tab2-step-img{display: none;}
+
+
+    .tab2-step-system ul{flex-wrap:wrap;}
+    .tab2-step-system ul li div{
+        width:90vw;
+    }
+    .tab2-step-system ul li div span{margin-top: 30px;}
+    .tab2-step-system ul li div p{margin: 0; width:75vw; font-size: 4.6875vw;}
+    .tab2-step-system ul li:nth-child(1) div p{transform:translate(60px, -33px)}
+    .tab2-step-system ul li:nth-child(3) div p{transform:translate(60px, -33px)}
+    .tab2-step-system ul li:nth-child(5) div p{transform:translate(10px, -10px)}
+    .tab2-step-system ul li:nth-child(7) div p{transform:translate(60px, -33px)}
+    .tab2-step-system ul li:nth-child(9) div p{transform:translate(60px, -33px)}
+
+    .tab2-step-system>ul>li>p{margin-top: 12px; margin-bottom: 26px; width:90vw; font-size: 3.7500vw;}
+
+    .mobile_ex>div>div{position: relative;}
+    .mobile_ex>div>div>img:nth-child(2){
+        width: 80px;
+        padding: 0;
+        position: absolute;
+        left: 15px;
+        top:10px;
+    }
+
+    .ch_nav ul li:nth-child(1){position: relative; top:-3px;}
 }

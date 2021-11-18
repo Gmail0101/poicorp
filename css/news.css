@@ -42,19 +42,27 @@ em{font-style: normal;}
     line-height: 30px;
     color: #fff;
 }
-.news_nav{position: relative; bottom:70px; background: rgba(0,0,0,0.5); width:100%;height: 70px;}
-.news_nav ul{display: flex; justify-content: center;}
+.news_nav{position: relative; bottom:0px; width:100%;height: 55px; border-bottom:1px solid #CFCFCF;}
+.news_nav ul{display: flex; justify-content: flex-start; width:57.29166666666667%; margin: 0 auto;}
 .news_nav ul li{ 
     display: block;
-    width:28.64583333333333%;
+    width: 10vw;
     text-align: center;
-    height: 70px;
-    line-height: 70px;
+    height: 52px;
+    line-height: 56px;
+    font-weight: 800;
+    text-align: center;
 }
 .news_nav ul li:nth-child(1){
-    background:#1968B2 ;
+    position: relative;
+    top:0px;
+    border-bottom:3px solid #154399;
 }
-.news_nav ul li a{color:#fff; font-size: 20px; font-weight: 800; display: block; width:100%;}
+.news_nav ul li:nth-child(1) a{
+    color:#154399;
+    border-right: 1px solid #CFCFCF;
+}
+.news_nav ul li a{font-size: 1.0417vw; display: block; width:100%;}
 
 #news_wrap{
     display: block;
@@ -64,19 +72,18 @@ em{font-style: normal;}
     margin-bottom: 160px;
 }
 .topbtn{position: fixed; right: 10%;top:90%;}
-.news_content{text-align: center;}
-.news_content h2{font-size:45px; font-weight: 800; line-height: 60px; color:#292929; margin-bottom: 90px;}
+.news_content{text-align: center; margin-top: 75px;}
+.news_content h2{position: relative; font-size:45px; font-weight: 800; line-height: 60px; color:#292929; margin-bottom: 90px;}
 .news_content h2>img{
     width:30px;
-    position:relative;
-    bottom:30px;
-    right:180px;
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top:-50%;
 }
 .news_content h4{font-size:28px; font-weight: 800; color:#144499; margin-top: 28px;}
 .news_content p{font-size: 20px; font-weight: bold; color:#292929; margin-top: 22px; margin-bottom: 76px;}
-.news_content{
-    margin-top: 25px;
-}
+
 .news_con ul{
     display: flex;
     flex-wrap: wrap;
@@ -149,4 +156,8 @@ em{font-style: normal;}
 }
 .foot{
     overflow: hidden;
+}
+
+@media screen and (min-width:320px) and (max-width:768px){
+    .news_nav ul{width:100%;}
 }

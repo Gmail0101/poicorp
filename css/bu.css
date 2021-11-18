@@ -21,7 +21,7 @@ font-family: 'NanumSquare', sans-serif;
 .bu_title h2,.bu_title h3,.bu_title p{
     text-shadow: 5px 5px 6px rgba(0,0,0,0.2);
 }
-.bu_title h2>span{font-weight: normal;}
+.bu_title h2>span{font-weight: normal; font-family: 'Open Sans', sans-serif !important}
 .bu_title h2{
     margin-top: 172px;
     font-family: 'Open Sans', sans-serif !important;
@@ -139,4 +139,57 @@ font-family: 'NanumSquare', sans-serif;
 }
 .foot{
     overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:320px) and (max-width:768px){ 
+    #bu_wrap{width:90vw; margin-bottom: 39px;}
+
+    .bu_content{margin: 0 auto;}
+    .bu_content h4{font-size: 6.2500vw; margin: 0 auto; width: 70vw; line-height: 33px;}
+    .bu_content p{
+        font-size: 4vw;
+        line-height: 23px;
+        font-weight: normal;
+    }
+
+    .bu_link_bg{
+        width:90vw;
+        margin-bottom: 70px;
+    }
+
+    .bu_link_box h2{
+        font-size: 4.6875vw;
+    }
+    .bu_link_bg>ul>li>img{width:41vw;}
+    .bu_link_box{bottom:0vh;}
+    .bu_link_box>p{display: none;}
 }
