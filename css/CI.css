@@ -57,9 +57,9 @@ font-family: 'NanumSquare', sans-serif;
     top:0px;
     border-bottom:3px solid #154399;
 }
-.ci_nav ul li:nth-child(1) a{
+.ci_nav ul li:nth-child(2) a{
     color:#154399;
-    border-right: 1px solid #CFCFCF;
+    border-left: 1px solid #CFCFCF;
 }
 .ci_nav ul li a{font-size: 1.0417vw; display: block; width:100%;}
 
