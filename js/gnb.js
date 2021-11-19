@@ -373,3 +373,4 @@ $(".moblie_slider").animate({
     // $(location).attr('href');
     // $(location).attr('port');
     // $(location).attr('protocol');
+    //

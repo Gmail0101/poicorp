@@ -98,3 +98,13 @@ function langChangeKr(){
         location.href = "/map.html";
     }
 }
+
+function mapclick(){
+    location.href = './map.html'
+}
+function newsclick(){
+    location.href = './news.html'
+}
+function usclick(){
+    location.href = './contactus.html'
+}

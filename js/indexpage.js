@@ -396,7 +396,7 @@ new fullpage('#fullpage', {
 
 
         }else if(destination.index == 4){
-            $("#page_nav").css({"opacity":"1","transition": "all 0.7s"});
+            $("#page_nav").css({"opacity":"1","transition": "all 0.7s","display":"block"});
             $("#page_nav ul li:nth-child(1) img").attr('src','./images/one_gray.png');
             $("#page_nav ul li:nth-child(1) a").css({"color":"#707070","transition": "all 0.7s"});
 
@@ -454,7 +454,7 @@ new fullpage('#fullpage', {
                 }
                 });
         }else if(destination.index == 5){
-            $("#page_nav").css({"opacity":"0","transition": "all 0.7s"});
+            $("#page_nav").css({"opacity":"0","transition": "all 0.7s","display":"none"});
         }else if(destination.index == 6){
         }
     },

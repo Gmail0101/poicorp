@@ -582,7 +582,7 @@ table img{vertical-align: middle; margin: 5px auto;}
     .mobile_ex ul li:nth-child(2),
     .mobile_ex ul li:nth-child(3),
     .mobile_ex ul li:nth-child(4){
-        width:19%;
+        width:20%;
         font-size: 3.7500vw;
     }
     .mobile_ex ul li:nth-child(2)::after,
