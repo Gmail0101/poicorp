@@ -473,6 +473,12 @@ table img{vertical-align: middle; margin: 5px auto;}
 .poi{width:30px !important; position: absolute; top:-8.3%; transform:translateX(-50%)}
 
 @media screen and (min-width:320px) and (max-width:768px){
+
+    .ch_content p{
+        font-size: 3.7500vw;
+        line-height: 23px;
+    }
+
     .ch_content h2{font-size: 7.8125vw;}
     .tab-img{text-align: center;}
     .tab-img>img{width:90%;}
@@ -686,7 +692,7 @@ table img{vertical-align: middle; margin: 5px auto;}
 
     .tab2-con-title h2{font-size: 7.8125vw;}
     .ch_content h2>img{width:16px; top:-15%;}
-    .poi{width:16px !important; top:-5.3%;}
+    .poi{width:16px !important; top:-6.5%;}
 
     .tab2-con-title p{
         width:91vw;
