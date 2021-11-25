@@ -102,7 +102,7 @@ font-family: 'NanumSquare', sans-serif;
     padding-bottom: 20px;
     border-bottom:2px solid #000;
 }
-.ci_system p{font-size: 18px; line-height: 27px; color:#4D4D4D; margin-top: 39px;}
+.ci_system p{font-size: 18px; line-height: 27px; color:#333333; margin-top: 39px;}
 .ci_content img{width:100%;}
 .ci_system>div{ width:99%; border:1px solid #D2D2D2;  margin-top: 69px;}
 .ci_system img{width:77.27272727272727%; margin-top: 23px; margin-bottom: 50px;}

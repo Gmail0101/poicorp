@@ -57,9 +57,9 @@ font-family: 'NanumSquare', sans-serif;
     top:0px;
     border-bottom:3px solid #154399;
 }
-.map_nav ul li:nth-child(1) a{
+.map_nav ul li:nth-child(2) a{
     color:#154399;
-    border-right: 1px solid #CFCFCF;
+    border-left: 1px solid #CFCFCF;
 }
 .map_nav ul li a{font-size: 1.0417vw; display: block; width:100%;}
 
@@ -78,7 +78,7 @@ font-family: 'NanumSquare', sans-serif;
     position:absolute;
     left: 50%;
     transform: translateX(-50%);
-    top:-33%;
+    top:-50%;
 }
 
 .map_content h4{font-size:28px; font-weight: 800; color:#144499; margin-top: 28px;}
