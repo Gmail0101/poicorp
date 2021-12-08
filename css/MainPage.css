@@ -560,7 +560,7 @@ sec 동일
 .mobile_toggle{display: none;}
 .mobile_in{display: none !important;}
             /* 769 ~ 1200 까지 보여주는 화면 설정 */
-@media screen and (min-width:769px) and (max-width:1200px) {
+@media only screen and (min-width:769px) and (max-width:1200px) {
     .slide-box h1{
      line-height: 1.2;
  }
@@ -572,7 +572,7 @@ sec 동일
  .controller{position: absolute; bottom:30vw; transform: translateX(-15.5%);}
 }
             /* 320 ~ 768 까지 보여주는 화면 설정 */
-@media screen and (min-width:320px) and (max-width:768px) {
+@media only screen and (min-width:320px) and (max-width:768px) {
     .mobile_out{display: none;}
     .sec3_box a,#menu,#lang,#page_nav,.prev,.next,.slide-area li>img{display: none;}
     .sec4_it_title>img,.sec3_ch_title>img,.sec5_nav{display: none;}
